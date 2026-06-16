@@ -61,7 +61,7 @@ const VRAGEN_1 = [
     ],
     zegDit: null,
     bronnen: [
-      { boek: "science-of-parenting", detail: "De chemie van welbevinden: oxytocine en opioïden bij aanraking bouwen het emotionele brein; troost in jaar één voorspelt stressbestendigheid later." },
+      { boek: "science-of-parenting", detail: "De chemie van welbevinden: oxytocine en geluksstofjes bij aanraking bouwen het emotionele brein; troost in jaar één voorspelt stressbestendigheid later." },
       { boek: "philippa-perry", detail: "Over de erfenis van je eigen opvoeding: waarom ‘niet verwennen’ een doorgegeven reflex is en geen wetenschap." },
       { boek: "power-of-showing-up", detail: "Veilige hechting ontstaat door betrouwbaar aanwezig zijn — de beste voorspeller van latere zelfstandigheid." }
     ],
@@ -134,7 +134,7 @@ const VRAGEN_1 = [
       { boek: "whole-brain-child", detail: "‘Connect & redirect’ en het boven/benedenbrein: eerst rechterbrein-contact (toon, nabijheid), dan pas linksbrein-logica; ‘name it to tame it’ voor achteraf." },
       { boek: "good-inside", detail: "‘Two things are true’: grens én empathie tegelijk; gedrag is een venster op een vaardigheid die nog ontbreekt." },
       { boek: "peaceful-parent", detail: "Eerst de ouder zelf kalm als stap nul; gevoelens begeleiden in plaats van straffen." },
-      { boek: "gottman-eq", detail: "De vijf stappen van emotiecoaching: de bui als kans tot verbinding in plaats van als gedragsprobleem." }
+      { boek: "gottman-eq", detail: "De vijf stappen om emoties te begeleiden: de bui als kans tot verbinding in plaats van als gedragsprobleem." }
     ],
     gerelateerd: ["ik-haat-je", "nee-zeggen-zonder-drama", "zelf-ontploft"]
   },
@@ -209,7 +209,7 @@ const VRAGEN_1 = [
       { boek: "self-driven-child", detail: "Gevoel van controle als buffer tegen angst; de ouder als niet-angstige aanwezigheid; vermijding voedt angst, zelfstandigheid bouwt veerkracht." },
       { boek: "anxious-generation", detail: "Overbescherming in de echte wereld heeft kinderen angstiger gemaakt; vrij spel en zelfstandigheid zijn de anti-angsttraining." },
       { boek: "whole-brain-child", detail: "‘Name it to tame it’: angst benoemen en het verhaal vertellen kalmeert het alarmcircuit." },
-      { boek: "gottman-eq", detail: "Eerst valideren, dan pas problemen oplossen — de basisvolgorde van emotiecoaching." }
+      { boek: "gottman-eq", detail: "Eerst erkennen, dan pas problemen oplossen — de basisvolgorde bij het begeleiden van emoties." }
     ],
     gerelateerd: ["driftbui-reageren", "smartphone-wanneer", "huiswerk-oorlog"]
   },
