@@ -46,7 +46,7 @@ const VRAGEN_1 = [
     kort: "Nee. Een baby kun je niet verwennen met nabijheid — elke knuffel bouwt letterlijk aan een stressbestendig brein. ‘Verwend’ gedrag is een peuter-en-later-verhaal, geen babyverhaal.",
     blokken: [
       { tekst: "Dit is misschien wel de meest hardnekkige opvoedmythe, en de wetenschap is er verrassend duidelijk over: <strong>baby's troosten en dragen maakt ze niet afhankelijk, maar juist zelfstandiger</strong>. Verwennen veronderstelt dat een baby berekent: ‘als ik huil, krijg ik aandacht’. Dat soort strategisch denken kán het babybrein simpelweg nog niet." },
-      { kop: "Wat nabijheid in het brein doet", tekst: "Sunderland beschrijft hoe vasthouden, wiegen en huid-op-huid de ‘gelukschemie’ activeren: oxytocine en natuurlijke opioïden. Die stoffen zijn geen luxe — ze zijn het cement van de hersenverbindingen die later stress reguleren. Een royaal getrooste baby krijgt een goed afgesteld alarmsysteem mee voor de rest van zijn leven." },
+      { kop: "Wat nabijheid in het brein doet", tekst: "Sunderland beschrijft hoe vasthouden, wiegen en huid-op-huid de ‘gelukschemie’ activeren: oxytocine en natuurlijke geluksstofjes. Die stoffen zijn geen luxe — ze zijn het cement van de hersenverbindingen die later helpen om met stress om te gaan. Een royaal getrooste baby krijgt een goed afgesteld alarmsysteem mee voor de rest van zijn leven." },
       { kop: "Waar komt de angst voor verwennen dan vandaan?", tekst: "Philippa Perry wijst naar onze eigen opvoeding: generaties ouders kregen het advies baby's ‘niet te veel vast te pakken’. Wie zelf zo is grootgebracht, voelt soms onbewust weerstand bij al dat geknuffel. Dat gevoel mag er zijn — maar het is een echo uit het verleden, geen signaal dat je iets fout doet." }
     ],
     doeDit: [
@@ -74,10 +74,10 @@ const VRAGEN_1 = [
     leeftijd: ["baby", "peuter", "kind", "tiener"],
     uitgelicht: false,
     tags: ["slaap", "bedtijd", "moe", "slaaptekort", "later opblijven", "concentratie"],
-    kort: "Belangrijker dan bijna alles. Eén uur minder slaap per nacht zet een kind cognitief jaren achteruit en verklaart een flink deel van humeur-, gedrags- en leerproblemen.",
+    kort: "Belangrijker dan bijna alles. Eén uur minder slaap per nacht zet een kind in zijn ontwikkeling jaren achteruit en verklaart een flink deel van humeur-, gedrags- en leerproblemen.",
     blokken: [
-      { tekst: "Als er één hoofdstuk uit <em>NurtureShock</em> elke ouder zou moeten kennen, is het dit. Bronson & Merryman verzamelden het slaaponderzoek en de conclusie is onthutsend: <strong>het verschil van één uur slaap per nacht</strong> komt bij kinderen overeen met jaren cognitieve ontwikkeling. Een uitgeslapen zesdeklasser presteert als een uitgeruste leerling; dezelfde leerling met een uur minder slaapt presteert als een vierdeklasser." },
-      { kop: "Waarom kinderslaap anders is", tekst: "Een kinderbrein is in aanbouw: tijdens de slaap worden de lessen van overdag letterlijk vastgelegd. Slaaptekort bij kinderen vreet dus niet alleen energie, maar ook geheugen, emotieregulatie en zelfbeheersing. Veel ‘druk’ of ‘humeurig’ gedrag is in werkelijkheid gewoon moe gedrag — bij kinderen uit zich slaaptekort vaak in opgefoktheid in plaats van gapen." },
+      { tekst: "Als er één hoofdstuk uit <em>NurtureShock</em> elke ouder zou moeten kennen, is het dit. Bronson & Merryman verzamelden het slaaponderzoek en de conclusie is verbluffend: <strong>het verschil van één uur slaap per nacht</strong> komt bij kinderen overeen met jaren ontwikkeling. Een uitgeslapen zesdeklasser presteert als een uitgeruste leerling; dezelfde leerling met een uur minder slaapt presteert als een vierdeklasser." },
+      { kop: "Waarom kinderslaap anders is", tekst: "Een kinderbrein is in aanbouw: tijdens de slaap worden de lessen van overdag letterlijk vastgelegd. Slaaptekort bij kinderen vreet dus niet alleen energie, maar ook geheugen, het kalmeren van emoties en zelfbeheersing. Veel ‘druk’ of ‘humeurig’ gedrag is in werkelijkheid gewoon moe gedrag — bij kinderen uit zich slaaptekort vaak in opgefoktheid in plaats van gapen." },
       { kop: "Tieners: laat ze uitslapen waar het kan", tekst: "De biologische klok van tieners verschuift echt — ze kúnnen vaak niet vroeg inslapen. Gecombineerd met vroege schooltijden bouwen ze chronisch tekort op, met aantoonbare gevolgen voor humeur en schoolresultaten. Wees dus mild over uitslapen in het weekend en streng over schermen in bed." }
     ],
     doeDit: [
@@ -93,7 +93,7 @@ const VRAGEN_1 = [
     ],
     zegDit: null,
     bronnen: [
-      { boek: "nurtureshock", detail: "Hoofdstuk ‘The Lost Hour’: één uur slaapverschil = jaren cognitief verschil; slaaptekort verklaart deels tienerhumeur en dalende resultaten." },
+      { boek: "nurtureshock", detail: "Hoofdstuk ‘The Lost Hour’: één uur slaapverschil = jaren verschil in ontwikkeling; slaaptekort verklaart deels tienerhumeur en dalende resultaten." },
       { boek: "science-of-parenting", detail: "Slaap en stressregulatie: rust en ritme als fundament van het zich ontwikkelende emotionele brein." }
     ],
     gerelateerd: ["baby-laten-huilen", "schermtijd-hoeveel"]
@@ -108,7 +108,7 @@ const VRAGEN_1 = [
     kort: "Eerst verbinden, dan pas sturen. Tijdens de storm werkt geen enkele les — jouw kalmte en nabijheid wél. Praten en afspraken komen pas als het kind weer rustig is.",
     blokken: [
       { tekst: "Een echte driftbui is geen opvoedingsfout en geen manipulatie. Siegel & Bryson leggen uit wat er gebeurt: je kind ‘flipt zijn deksel’ — de emotionele benedenverdieping van het brein neemt het over en de redelijke bovenverdieping is letterlijk offline. <strong>Daarom werkt redeneren tijdens een driftbui nooit:</strong> je praat tegen een verdieping waar niemand thuis is." },
-      { kop: "Stap 1: blijf zelf heel", tekst: "Laura Markham is er glashelder over: jouw regulatie komt eerst. Een volwassene die meeschreeuwt, bevestigt het brandalarm alleen maar. Adem uit (langer uit dan in), zak door je knieën, maak je stem laag en traag. Je hoeft niets te fiksen — je moet vooral niet méé ontploffen." },
+      { kop: "Stap 1: blijf zelf heel", tekst: "Laura Markham is er glashelder over: eerst jij zelf rustig. Een volwassene die meeschreeuwt, bevestigt het brandalarm alleen maar. Adem uit (langer uit dan in), zak door je knieën, maak je stem laag en traag. Je hoeft niets te fiksen — je moet vooral niet méé ontploffen." },
       { kop: "Stap 2: verbind met de emotie, niet met de woorden", tekst: "Becky Kennedy noemt het <em>two things are true</em>: de grens blijft staan én het gevoel mag er helemaal zijn. “Je wilde dat koekje zó graag. Je bent woedend. Ik blijf bij je.” Je geeft niet toe aan de eis — je geeft erkenning aan het gevoel. Dat is geen verwennen; dat is het verschil tussen de brand blussen en de brandweer uitschelden." },
       { kop: "Stap 3: achteraf — en pas achteraf — het gesprek", tekst: "Als de storm geliquideerd is (soms pas uren later), komt het leermoment: <em>name it to tame it</em>. Vertel samen het verhaal: “Je was zó boos in de winkel, hè. Je hele lijf deed mee.” Een kind dat woorden krijgt voor de storm, krijgt er gaandeweg grip op. Hier mag ook de grens herhaald worden — kort, warm en zonder preek." }
     ],
@@ -133,7 +133,7 @@ const VRAGEN_1 = [
     bronnen: [
       { boek: "whole-brain-child", detail: "‘Connect & redirect’ en het boven/benedenbrein: eerst rechterbrein-contact (toon, nabijheid), dan pas linksbrein-logica; ‘name it to tame it’ voor achteraf." },
       { boek: "good-inside", detail: "‘Two things are true’: grens én empathie tegelijk; gedrag is een venster op een vaardigheid die nog ontbreekt." },
-      { boek: "peaceful-parent", detail: "Zelfregulatie van de ouder als stap nul; emotie-coaching in plaats van straffen van gevoelens." },
+      { boek: "peaceful-parent", detail: "Eerst de ouder zelf kalm als stap nul; gevoelens begeleiden in plaats van straffen." },
       { boek: "gottman-eq", detail: "De vijf stappen van emotiecoaching: de bui als kans tot verbinding in plaats van als gedragsprobleem." }
     ],
     gerelateerd: ["ik-haat-je", "nee-zeggen-zonder-drama", "zelf-ontploft"]
@@ -169,7 +169,7 @@ const VRAGEN_1 = [
     ],
     bronnen: [
       { boek: "good-inside", detail: "Meest gulle interpretatie en sturdy leadership: het kind is goed vanbinnen, het gedrag is overloop; de ouder blijft het stevige anker." },
-      { boek: "gottman-eq", detail: "Emoties afkeuren of bestraffen leert kinderen hun binnenwereld te verbergen; valideren houdt het kanaal open." },
+      { boek: "gottman-eq", detail: "Emoties afkeuren of bestraffen leert kinderen hun binnenwereld te verbergen; erkennen houdt de lijn open." },
       { boek: "philippa-perry", detail: "Kijk naar wat het in jóu raakt: je eigen gekwetstheid komt vaak uit je eigen geschiedenis, niet uit dit moment." }
     ],
     gerelateerd: ["driftbui-reageren", "zelf-ontploft", "tiener-trekt-terug"]
@@ -206,7 +206,7 @@ const VRAGEN_1 = [
       "“Ik blijf dichtbij. Jij doet het, ik kijk.”"
     ],
     bronnen: [
-      { boek: "self-driven-child", detail: "Gevoel van controle als angstbuffer; de ouder als niet-angstige aanwezigheid; vermijding voedt angst, autonomie bouwt veerkracht." },
+      { boek: "self-driven-child", detail: "Gevoel van controle als buffer tegen angst; de ouder als niet-angstige aanwezigheid; vermijding voedt angst, zelfstandigheid bouwt veerkracht." },
       { boek: "anxious-generation", detail: "Overbescherming in de echte wereld heeft kinderen angstiger gemaakt; vrij spel en zelfstandigheid zijn de anti-angsttraining." },
       { boek: "whole-brain-child", detail: "‘Name it to tame it’: angst benoemen en het verhaal vertellen kalmeert het alarmcircuit." },
       { boek: "gottman-eq", detail: "Eerst valideren, dan pas problemen oplossen — de basisvolgorde van emotiecoaching." }
