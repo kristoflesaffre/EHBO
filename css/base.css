@@ -130,6 +130,7 @@ button { font-family: inherit; cursor: pointer; }
 .logo-wissel-woord {
   grid-area: 1 / 1;
   display: inline-block;
+  pointer-events: none;
   will-change: transform, opacity;
   animation-duration: 6.4s;
   animation-timing-function: cubic-bezier(.7, 0, .2, 1);
@@ -138,12 +139,20 @@ button { font-family: inherit; cursor: pointer; }
 
 .logo-wissel-opvoeden { animation-name: logoWisselOpvoeden; }
 
-.logo-wissel-trauma {
+.logo-wissel-trauma,
+.logo-zuster-link {
   animation-name: logoWisselTrauma;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: .2em;
 }
+
+.logo-zuster-link {
+  color: inherit;
+  cursor: pointer;
+}
+
+.logo-zuster-link:hover { color: var(--terracotta-diep); }
 
 @keyframes logoWisselOpvoeden {
   0%, 39% { opacity: 1; transform: translateY(0); }
@@ -153,9 +162,9 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 @keyframes logoWisselTrauma {
-  0%, 39% { opacity: 0; transform: translateY(95%); }
-  47%, 86% { opacity: 1; transform: translateY(0); }
-  94%, 100% { opacity: 0; transform: translateY(-95%); }
+  0%, 39% { opacity: 0; transform: translateY(95%); pointer-events: none; }
+  47%, 86% { opacity: 1; transform: translateY(0); pointer-events: auto; }
+  94%, 100% { opacity: 0; transform: translateY(-95%); pointer-events: none; }
 }
 
 .visueel-verborgen {
@@ -188,6 +197,7 @@ button { font-family: inherit; cursor: pointer; }
     animation: none;
     transform: none;
     opacity: 1;
+    pointer-events: auto;
   }
 
   .logo-wissel-opvoeden::after {

@@ -2,6 +2,21 @@
 // EHBO — router, renderers, zoeken & micro-animaties
 // ============================================================
 
+const ZUSTER_SITES = {
+  trauma: {
+    local: "http://localhost:4174/",
+    prod: "" // Vul in zodra EHBT live staat, bv. "https://jouwdomein.be/trauma/"
+  }
+};
+
+function zusterSiteUrl(site) {
+  const urls = ZUSTER_SITES[site];
+  const lokaal = !location.hostname || ["localhost", "127.0.0.1"].includes(location.hostname);
+  return lokaal || !urls.prod ? urls.local : urls.prod;
+}
+
+document.getElementById("logoTraumaLink")?.setAttribute("href", zusterSiteUrl("trauma"));
+
 const VRAGEN = [
   ...VRAGEN_1,
   ...VRAGEN_2,
@@ -246,7 +261,7 @@ function renderHome() {
     </figure>
     <div class="held-binnen">
       <h1 class="verschijn" style="--wacht:.22s">Opvoedhulp voor <em>moeilijke momenten</em></h1>
-      <p class="held-intro verschijn" style="--wacht:.44s">Praktische antwoorden op échte opvoedvragen, geschreven in gewone taal en onderbouwd met ontwikkelingspsychologie, hechtingsonderzoek en gerenommeerde opvoedbronnen. Wat doe je bij een driftbui? Mag je baby huilen? Wanneer die smartphone? Rustig, bruikbaar en eerlijk.</p>
+      <p class="held-intro verschijn" style="--wacht:.44s">Praktische antwoorden op échte opvoedvragen, geschreven in gewone taal en onderbouwd met onderzoek naar de ontwikkeling van kinderen, hechtingsonderzoek en bekende opvoedboeken. Wat doe je bij een driftbui? Mag je baby huilen? Wanneer die smartphone? Rustig, bruikbaar en eerlijk.</p>
       <div class="held-acties verschijn" style="--wacht:.66s">
         <a class="knop knop-vol" href="#/themas">Vind je antwoord <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         <a class="knop knop-nood" href="#/noodhulp">🚨 Noodhulp — het brandt nú</a>
@@ -306,7 +321,7 @@ function renderHome() {
   </section>
 
   <section class="sectie home-sectie">
-    ${sectieKop("De rode draad", "Tien gouden regels uit onderzoek en praktijk", "Onderzoek, klinische praktijk en gerenommeerde opvoedbronnen wijzen opvallend vaak dezelfde kant op. Dit zijn oriënterende inzichten om daarna zelf verder te lezen of toe te passen.")}
+    ${sectieKop("De rode draad", "Tien gouden regels uit onderzoek en praktijk", "Onderzoek, ervaring uit de praktijk en bekende opvoedboeken wijzen opvallend vaak dezelfde kant op. Dit zijn algemene inzichten om daarna zelf verder te lezen of toe te passen.")}
     <div class="regel-raster home-regel-swimlane">
       ${REGELS.map((r, i) => regelHTML(r, i)).join("")}
     </div>
@@ -314,7 +329,7 @@ function renderHome() {
   </section>
 
   <section class="sectie home-sectie">
-    ${sectieKop("De bronnen", "Boeken en bronnen om verder te lezen", "De site bevat eigen tekst, bibliografische verwijzingen en zoeklinks, geen boekbestanden of officiële samenvattingen. Dit zijn gerenommeerde werken om zelf verder in te lezen.")}
+    ${sectieKop("De bronnen", "Boeken en bronnen om verder te lezen", "De site bevat eigen tekst, verwijzingen naar boeken en zoeklinks, geen boekbestanden of officiële samenvattingen. Dit zijn bekende werken om zelf verder in te lezen.")}
     <div class="chip-rij verschijn">
       ${Object.entries(BOEKEN).map(([id, b]) => `<a class="chip" href="#/boek/${id}">${b.icoon} ${b.titel}</a>`).join("")}
     </div>
@@ -563,7 +578,7 @@ function renderNood(id) {
 function renderMythes() {
   app.innerHTML = `
   <section class="sectie">
-    ${sectieKop("Mythbusters", "Hardnekkige mythes, ontkracht", "Adviezen die al generaties doorgegeven worden en die onderzoek en de geraadpleegde bronnen stevig tegenspreken. Klik open voor wat er wél klopt.", "mythes")}
+    ${sectieKop("Mythbusters", "Hardnekkige opvoedmythes", "Adviezen die al generaties worden doorgegeven, maar die het onderzoek en de gebruikte bronnen stevig tegenspreken. Klik open voor wat er wél klopt.", "mythes")}
     <div class="leeftijd-strip mythe-filter verschijn" role="group" aria-label="Filter mythes op leeftijd">
       ${leeftijdStripHTML()}
     </div>
@@ -599,7 +614,7 @@ function renderOnderzoeken() {
 
   app.innerHTML = `
   <section class="sectie">
-    ${sectieKop("Onderzoeken", `${ONDERZOEKEN.length} verrassende onderzoeken achter opvoedadvies`, "Geen boek-samenvattingen, maar korte vertalingen van studies en wetenschappelijke reviews: wat werd onderzocht, wat bleek, wat kun je ermee aan de keukentafel en waar moet je voorzichtig mee blijven.")}
+    ${sectieKop("Onderzoeken", `${ONDERZOEKEN.length} verrassende onderzoeken achter opvoedadvies`, "Geen boek-samenvattingen, maar korte vertalingen van studies en overzichtsstudies: wat werd onderzocht, wat bleek, wat kun je ermee aan de keukentafel en waar moet je voorzichtig mee blijven.")}
 
     <div class="bron-notitie verschijn">
       <strong>Bronvermelding:</strong> elke kaart verwijst eerst naar de onderzoeksbron. Daarna tonen we in welke geraadpleegde boeken dit inzicht aansluit of verder wordt uitgewerkt.
@@ -688,7 +703,7 @@ function renderOnderzoek(id) {
 function renderRegels() {
   app.innerHTML = `
   <section class="sectie">
-    ${sectieKop("De rode draad", "De tien gouden regels", "Onderzoek, klinische ervaring en gerenommeerde opvoedbronnen komen opvallend vaak op dezelfde kern uit. Wie alleen dít onthoudt, heeft negentig procent mee.", "regels")}
+    ${sectieKop("De rode draad", "De tien gouden regels", "Onderzoek, ervaring uit de praktijk en bekende opvoedboeken komen opvallend vaak op dezelfde kern uit. Wie alleen dít onthoudt, heeft negentig procent mee.", "regels")}
     <div class="regel-raster">${REGELS.map((r, i) => regelHTML(r, i)).join("")}</div>
   </section>`;
 }
@@ -783,7 +798,7 @@ function renderBoek(id) {
         ${koopLinksHTML(b)}
       </div>
     </div>
-    <h2 class="verschijn" style="margin-top:44px; font-size:1.45rem">Oriënterende kernpunten</h2>
+    <h2 class="verschijn" style="margin-top:44px; font-size:1.45rem">Algemene kernpunten</h2>
     <ul class="kern-lijst">
       ${b.bullets.map((k, i) => `<li class="verschijn" style="--wacht:${i * 0.08}s">${k}</li>`).join("")}
     </ul>
