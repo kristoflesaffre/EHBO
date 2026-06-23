@@ -26,7 +26,7 @@ const VRAGEN_13 = [
     ["“Ik zorg voor het eten. Jij voelt wat je lijf nodig heeft.”"],
     [
       ["child-of-mine", "De taakverdeling in voeden: ouders bepalen wat, wanneer en waar; kinderen bepalen of en hoeveel."],
-      ["unconditional-parenting", "Controle rond basisbehoeften maakt samenwerking snel voorwaardelijk en beladen."]
+      ["unconditional-parenting", "Controle rond basisbehoeften maakt samenwerking snel afhankelijk van prestatie en beladen."]
     ],
     ["eten-proeven-dwingen", "snacken-grazen"]
   ),
@@ -106,7 +106,7 @@ const VRAGEN_13 = [
     ],
     ["“Dessert is geen prijs. Dit is wat er vandaag is.”"],
     [
-      ["child-of-mine", "Dessert verdienen met groenten ondermijnt ontspannen leren eten en maakt eten voorwaardelijk."],
+      ["child-of-mine", "Dessert verdienen met groenten ondermijnt ontspannen leren eten en maakt eten afhankelijk van een beloning."],
       ["unconditional-parenting", "Beloningen kopen gedrag, maar veranderen de relatie met de activiteit vaak in de verkeerde richting."]
     ],
     ["eet-taakverdeling", "eten-proeven-dwingen"]
@@ -215,7 +215,7 @@ const VRAGEN_13 = [
     ["“Je lijf is over de grens. We helpen het vroeger zakken.”"],
     [
       ["healthy-sleep-habits", "Weissbluth benadrukt dat oververmoeidheid slaap verslechtert en dat vroege bedtijd vaak regulerend werkt."],
-      ["nurtureshock", "Slaaptekort beïnvloedt leren, stemming en impulscontrole sterker dan ouders vaak inschatten."]
+      ["nurtureshock", "Slaaptekort beïnvloedt leren, stemming en zelfbeheersing sterker dan ouders vaak inschatten."]
     ],
     ["peuter-geen-middagdutje", "slaap-hoe-belangrijk"]
   ),

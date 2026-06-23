@@ -25,7 +25,7 @@ const VRAGEN_8 = [
     ],
     ["“Je wilde het heel graag. Het antwoord blijft nee. Ik blijf bij je.”"],
     [
-      ["good-inside", "Two things are true: gevoelens erkennen en grenzen houden kunnen samen bestaan."],
+      ["good-inside", "Twee dingen kunnen tegelijk waar zijn: gevoelens erkennen en grenzen houden kunnen samengaan."],
       ["whole-brain-child", "Bij overspoeling is verbinding nodig voordat redeneren weer werkt."]
     ],
     ["driftbui-winkel", "kind-blijft-hangen-in-boosheid"]
@@ -80,7 +80,7 @@ const VRAGEN_8 = [
     ["“Een fout vertelt ons wat de volgende stap is.”"],
     [
       ["nurtureshock", "Proceslof kweekt doorzetting; slimheidslof vergroot faalangst."],
-      ["self-driven-child", "Autonomie en competentie helpen kinderen stress rond prestaties dragen."]
+      ["self-driven-child", "Zelfstandigheid en het gevoel iets te kunnen helpen kinderen stress rond prestaties dragen."]
     ],
     ["faalangst-perfectionisme", "kind-snel-gefrustreerd"]
   ),
@@ -93,7 +93,7 @@ const VRAGEN_8 = [
     "Verliezen is een echte oefening in teleurstelling. Houd spel klein, benoem de pijn en oefen sportief herstel wanneer het brein weer online is.",
     "Voor een kind kan verliezen voelen als vernedering. Het gaat niet alleen om het spel, maar om status, schaamte en controleverlies. Daarom helpt een preek over sportiviteit zelden midden in de woede.",
     "Oefen buiten het heetste moment",
-    "Speel korte spelletjes, laat jezelf ook verliezen en modelleer taal: balen, adem, opnieuw. De vaardigheid groeit door herhaling in veilige doses.",
+    "Speel korte spelletjes, laat jezelf ook verliezen en doe de taal voor: balen, adem, opnieuw. De vaardigheid groeit door herhaling in veilige doses.",
     [
       "Begin met korte spellen met lage inzet.",
       "Benoem: “verliezen prikt”.",
@@ -106,7 +106,7 @@ const VRAGEN_8 = [
     ],
     ["“Je baalt. We ademen, en dan ruimen we samen op.”"],
     [
-      ["gottman-eq", "Emotiecoaching erkent het gevoel en zoekt daarna passend gedrag."],
+      ["gottman-eq", "Emoties begeleiden erkent het gevoel en zoekt daarna passend gedrag."],
       ["nurtureshock", "Uitdagingen leren dragen vraagt procesgericht oefenen, niet alleen complimenten bij succes."]
     ],
     ["kind-snel-gefrustreerd", "perfectionisme-boos-fout"]
@@ -134,7 +134,7 @@ const VRAGEN_8 = [
     ["“Dat doet pijn. Je wilde erbij horen en nu voelt het alsof je eruit valt.”"],
     [
       ["philippa-perry", "Gevoelens worden dragelijker wanneer ze serieus genomen worden."],
-      ["gottman-eq", "Luisteren en valideren gaan vóór probleemoplossing."]
+      ["gottman-eq", "Luisteren en erkennen gaan vóór probleemoplossing."]
     ],
     ["kind-zegt-niets-over-school", "vergelijken-met-anderen"]
   ),
@@ -172,7 +172,7 @@ const VRAGEN_8 = [
     ["peuter", "kind", "tiener"],
     ["verandering", "overgang", "paniek", "voorbereiden", "routine"],
     "Verandering wordt draaglijker door voorspelbaarheid en keuze in kleine dingen. Bereid voor, maak de volgende stap concreet en bouw herstelruimte in.",
-    "Sommige kinderen hebben meer overgangstijd nodig. Dat is geen aanstellerij. Hun brein schakelt trager van bekend naar onbekend, en elke verrassing kost regulatie.",
+    "Sommige kinderen hebben meer overgangstijd nodig. Dat is geen aanstellerij. Hun brein schakelt trager van bekend naar onbekend, en elke verrassing kost hun moeite om kalm te blijven.",
     "Maak het onbekende zichtbaar",
     "Gebruik een kalender, foto's, stappenlijst of proefbezoek. Geef beperkte keuze: welke trui, welk boek mee, naast wie zitten. Zo krijgt je kind controle zonder dat jij de verandering moet schrappen.",
     [
@@ -214,7 +214,7 @@ const VRAGEN_8 = [
     ],
     ["“Ik zie dat je stil bent. Ik ben beschikbaar, ook straks.”"],
     [
-      ["gottman-eq", "Emotiecoaching begint met opmerken en uitnodigen, niet forceren."],
+      ["gottman-eq", "Emoties begeleiden begint met opmerken en uitnodigen, niet forceren."],
       ["how-to-talk", "Beschrijven wat je ziet opent vaker dan vragenvuren of beschuldigingen."]
     ],
     ["kind-zegt-niets-over-school", "puber-praat-niet"]
@@ -322,8 +322,8 @@ const VRAGEN_8 = [
     ],
     ["“Je mag kiezen hoe. Dat we het doen staat vast.”"],
     [
-      ["good-inside", "Sturdy leadership is warm en stevig: ruimte geven zonder de ouderrol te verlaten."],
-      ["self-driven-child", "Autonomie werkt stressverlagend wanneer de kaders helder blijven."]
+      ["good-inside", "Stevig leiderschap is warm en stevig: ruimte geven zonder de ouderrol te verlaten."],
+      ["self-driven-child", "Zelfstandigheid werkt stressverlagend wanneer de kaders helder blijven."]
     ],
     ["niet-luisteren-eerste-keer", "driftbui-na-nee"]
   ),
@@ -334,7 +334,7 @@ const VRAGEN_8 = [
     ["peuter", "kind"],
     ["belonen", "stickers", "motivatie", "grenzen", "afbouwen"],
     "Bouw beloningen om naar routines, betrokkenheid en echte betekenis. Stop niet alleen de sticker; vervang hem door verbinding en duidelijkheid.",
-    "Beloningssystemen kunnen gedrag tijdelijk op gang trekken, maar ze maken de vraag vaak: wat krijg ik ervoor? Als je stopt, lijkt motivatie weg. Dan zie je hoe weinig eigenaarschap er eigenlijk was opgebouwd.",
+    "Beloningssystemen kunnen gedrag tijdelijk op gang trekken, maar ze maken de vraag vaak: wat krijg ik ervoor? Als je stopt, lijkt motivatie weg. Dan zie je hoe weinig eigen motivatie er eigenlijk was opgebouwd.",
     "Van transactie naar routine",
     "Maak het gewenste gedrag onderdeel van het gewone leven: tanden poetsen hoort bij bedtijd, opruimen hoort bij spelen, helpen hoort bij samenwonen. Geef erkenning, maar niet alles hoeft een prijs te krijgen.",
     [
@@ -345,12 +345,12 @@ const VRAGEN_8 = [
     [
       "Beloningen plots schrappen zonder uitleg.",
       "Alles vervangen door dreigen.",
-      "Verwachten dat intrinsieke motivatie direct terug is."
+      "Verwachten dat motivatie van binnenuit direct terug is."
     ],
     ["“We gaan dit oefenen als gewoonte, niet meer voor stickers.”"],
     [
-      ["unconditional-parenting", "Belonen kan motivatie versmallen en gedrag voorwaardelijk maken."],
-      ["how-to-talk", "Beschrijven en samenwerken lokt meer eigenaarschap uit dan controle."]
+      ["unconditional-parenting", "Belonen kan motivatie versmallen en gedrag afhankelijk van een beloning maken."],
+      ["how-to-talk", "Beschrijven en samenwerken lokt meer eigen motivatie uit dan controle."]
     ],
     ["mythe-belonen-werkt", "klusjes-in-gezin"]
   ),
@@ -376,7 +376,7 @@ const VRAGEN_8 = [
     ],
     ["“Dit gaat over herstellen, niet over jou pijn doen.”"],
     [
-      ["unconditional-parenting", "Controle en straf geven korte gehoorzaamheid maar ondermijnen intrinsiek moreel leren."],
+      ["unconditional-parenting", "Controle en straf geven korte gehoorzaamheid maar ondermijnen het leren van waarden van binnenuit."],
       ["good-inside", "Grenzen blijven nodig, maar vanuit vaardigheidsopbouw en verbinding."]
     ],
     ["mythe-straf-leert", "slaan-na-waarschuwing"]
@@ -511,7 +511,7 @@ const VRAGEN_8 = [
     ],
     ["“Tanden poetsen moet. Jij kiest: op schoot of op het krukje.”"],
     [
-      ["how-to-talk", "Keuzes binnen grenzen geven autonomie zonder de ouderlijke richting te verliezen."],
+      ["how-to-talk", "Keuzes binnen grenzen geven ruimte voor eigen keuze zonder de ouderlijke richting te verliezen."],
       ["peaceful-parent", "Spel en verbinding maken medewerking waarschijnlijker dan controle."]
     ],
     ["weigerstaking", "onderhandelen-over-alles"]
@@ -579,7 +579,7 @@ const VRAGEN_8 = [
     "Kinderen zijn van nature betere portiecontroleurs dan volwassenen. Kleine eters eten vaak precies genoeg voor hun groei — tenzij groeikurve, energie of plezier aan tafel een ander signaal geven.",
     "Ouders zijn biologisch geprogrammeerd om te zorgen dat hun kind genoeg eet. Dat maakt elke onaangeroerde bord al snel een reden tot paniek. Maar kinderen hebben per kilo lichaamsgewicht al genoeg aan verrassend kleine hoeveelheden.",
     "Leer de signalen lezen",
-    "Satter onderscheidt twee dingen: eetlust en intake. Eetlust schommelt enorm per dag, per week, per groeifase. Wat telt is het langetermijnpatroon: groeit je kind langs de kurve (niet per se snel, maar gestaag), heeft het energie en eetplezier, dan eet het genoeg. Zorg wordt zinvol bij consistente achterstand op de groeikurve, bij pijn of slik-problemen, of bij angstig eten dat steeds smaller wordt.",
+    "Satter onderscheidt twee dingen: eetlust en hoeveel een kind eet. Eetlust schommelt enorm per dag, per week, per groeifase. Wat telt is het patroon op de lange termijn: groeit je kind langs de groeicurve (niet per se snel, maar gestaag), heeft het energie en eetplezier, dan eet het genoeg. Zorg wordt zinvol bij een blijvende achterstand op de groeicurve, bij pijn of slikproblemen, of bij angstig eten dat steeds smaller wordt.",
     [
       "Volg de groeikurve over tijd, niet de borden dag per dag.",
       "Bied kleine porties aan en laat je kind om meer vragen.",

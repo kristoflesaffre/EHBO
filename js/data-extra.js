@@ -64,7 +64,7 @@ const NOODHULP = [
     icoon: "🧱",
     kort: "De dagelijkse machtsstrijd op zijn hoogtepunt. Zo kom je eruit zonder oorlog.",
     stappen: [
-      { kop: "Stop met duwen — geef de strijd geen brandstof", tekst: "Hoe harder jij trekt, hoe harder een peuterbrein zich schrap zet. Autonomie is geen onwil; het is het ontwikkelingsdoel van deze leeftijd.", zeg: null },
+      { kop: "Stop met duwen — geef de strijd geen brandstof", tekst: "Hoe harder jij trekt, hoe harder een peuterbrein zich schrap zet. Zelf willen bepalen is geen onwil; het is precies waar deze leeftijd om draait.", zeg: null },
       { kop: "Maak eerst tien seconden contact", tekst: "Zak op ooghoogte, benoem waar je kind mee bezig is. Verbinding eerst — een kind volgt mensen, geen bevelen.", zeg: "“Jij bent lekker aan het bouwen, hè.”" },
       { kop: "Geef een echte keuze binnen jouw grens", tekst: "Het wát staat vast, het hóe is van je kind. Twee opties, allebei oké voor jou.", zeg: "“We poetsen tanden. Wil jij eerst, of ik eerst bij jou?”" },
       { kop: "Maak er spel van — humor is een breekijzer", tekst: "“Zou deze trui passen bij... papa's hoofd?” Een lachend kind werkt mee; spel is de moedertaal van peuters, en gezichtsverlies is voor iedereen weg.", zeg: null },
@@ -137,7 +137,7 @@ const NOODHULP = [
       { kop: "Maak het lijf veilig", tekst: "Is er gooien, duwen of blokkeren? Eerst afstand en rust. De discussie over schermregels komt later.", zeg: "“Ik ga niet vechten om een telefoon.”" },
       { kop: "Benoem de trekkracht", tekst: "Een telefoon loslaten kan echt voelen als verlies. Erken dat zonder de grens op te geven.", zeg: "“Je brein wil blijven scrollen. Stoppen voelt nu verschrikkelijk.”" },
       { kop: "Herhaal de regel één keer", tekst: "Meer uitleg wordt brandstof. Zeg de grens kort en blijf bij dezelfde zin.", zeg: "“De telefoon gaat nu weg. Morgen spreken we opnieuw af hoe.”" },
-      { kop: "Bied een landingsbaan", tekst: "Na schermen heeft het lijf vaak overgang nodig: douche, snack, buitenlucht, samen iets kleins doen. Niet als beloning, maar als regulatie.", zeg: "“Kom, eerst iets drinken. Daarna praten we niet meer over de telefoon.”" },
+      { kop: "Bied een landingsbaan", tekst: "Na schermen heeft het lijf vaak overgang nodig: douche, snack, buitenlucht, samen iets kleins doen. Niet als beloning, maar om tot rust te komen.", zeg: "“Kom, eerst iets drinken. Daarna praten we niet meer over de telefoon.”" },
       { kop: "Maak later een collectieve afspraak", tekst: "Schermregels werken beter als ze vooraf helder zijn en niet midden in de strijd bedacht worden. Leg laadtijd, slaapkamer en sociale media vast.", zeg: null }
     ],
     bronnen: ["anxious-generation", "good-inside", "self-driven-child"]
@@ -207,7 +207,7 @@ const NOODHULP = [
       { kop: "Haal mensen uit de baan", tekst: "Zet jezelf of andere kinderen niet in de vuurlijn. Neem afstand, verwijder losse spullen als dat veilig kan.", zeg: null },
       { kop: "Stop kort en fysiek veilig", tekst: "Geen lange preek over respect voor spullen. Het brein staat in alarm. Eén duidelijke zin is genoeg.", zeg: "“Ik laat je niet gooien.”" },
       { kop: "Geef een veilig alternatief voor het lijf", tekst: "Boosheid is energie. Laat die naar iets dat mag: stampen, kussen, muurduw, papier scheuren.", zeg: "“Je handen willen gooien. Duw hier tegen mijn handen.”" },
-      { kop: "Wacht met opruimen tot de storm zakt", tekst: "Een kind midden in woede laten opruimen wordt snel een nieuwe strijd. Eerst regulatie, daarna verantwoordelijkheid.", zeg: null },
+      { kop: "Wacht met opruimen tot de storm zakt", tekst: "Een kind midden in woede laten opruimen wordt snel een nieuwe strijd. Eerst rust, daarna verantwoordelijkheid.", zeg: null },
       { kop: "Laat herstellen wat kan", tekst: "Lijmen, opruimen, vervangen, sparen, sorry zeggen: herstel leert verantwoordelijkheid zonder schaamte als hoofdgerecht.", zeg: "“Wat is jouw stukje om dit te herstellen?”" }
     ],
     bronnen: ["whole-brain-child", "good-inside", "peaceful-parent"]
@@ -364,9 +364,9 @@ const MYTHES = [
   {
     id: "mythe-verwennen",
     mythe: "“Je verwent een baby door hem te veel vast te houden.”",
-    feit: "Onmogelijk. Een babybrein kan nog niet manipuleren — het kan alleen behoeften uitzenden. Nabijheid en troost bouwen letterlijk het stresssysteem dat later zelfstandigheid mogelijk maakt. Royaal getrooste baby's worden niet plakkerig, maar juist vrijer in het verkennen.\n\nElke keer dat een volwassene reageert op een huilende baby, leert het zenuwstelsel dat ongemak draaglijk is en hulp betrouwbaar. Dat is de basis van zelfregulatie, niet een recept voor afhankelijkheid. De cortisol-stressas wordt letterlijk gekalibreerd door vroege troostervaringen.",
+    feit: "Onmogelijk. Een babybrein kan nog niet manipuleren — het kan alleen behoeften uitzenden. Nabijheid en troost bouwen letterlijk het stresssysteem dat later zelfstandigheid mogelijk maakt. Royaal getrooste baby's worden niet plakkerig, maar juist vrijer in het verkennen.\n\nElke keer dat een volwassene reageert op een huilende baby, leert het zenuwstelsel dat ongemak draaglijk is en hulp betrouwbaar. Dat is de basis van later zichzelf kunnen kalmeren, niet een recept voor afhankelijkheid. Het stresssysteem (met het hormoon cortisol) wordt letterlijk afgesteld door vroege troostervaringen.",
     bron: "science-of-parenting",
-    bronDetail: "De chemie van troost: oxytocine en opioïden als bouwstof van het emotionele brein."
+    bronDetail: "De chemie van troost: oxytocine en geluksstofjes als bouwstof van het emotionele brein."
   },
   {
     id: "mythe-slim-prijzen",
@@ -378,51 +378,51 @@ const MYTHES = [
   {
     id: "mythe-uithuilen",
     mythe: "“Even flink laten uithuilen, dan leert hij zichzelf troosten.”",
-    feit: "Een jonge baby kán zichzelf niet troosten — die hersencircuits bestaan nog niet. Wat eruitziet als 'zelf in slaap vallen' na lang huilen, is vaak opgeven. Zelftroost ontstaat juist door duizenden keren getroost te wórden.\n\nOnderzoek naar cortisol — het stresshormoon — laat zien dat baby's die ophouden met huilen na 'uithuilen' vaak nog steeds hoge stresswaarden hebben: ze zijn stil, maar niet gekalmeerd. De weg naar zelfstandig kalmeren loopt via co-regulatie, niet via uitputting.",
+    feit: "Een jonge baby kán zichzelf niet troosten — die hersencircuits bestaan nog niet. Wat eruitziet als 'zelf in slaap vallen' na lang huilen, is vaak opgeven. Zelftroost ontstaat juist door duizenden keren getroost te wórden.\n\nOnderzoek naar cortisol — het stresshormoon — laat zien dat baby's die ophouden met huilen na 'uithuilen' vaak nog steeds hoge stresswaarden hebben: ze zijn stil, maar niet gekalmeerd. De weg naar zelfstandig kalmeren loopt via samen kalmeren, niet via uitputting.",
     bron: "power-of-showing-up",
-    bronDetail: "De S van soothed: co-regulatie nu is zelfregulatie later."
+    bronDetail: "De S van soothed (getroost): samen kalmeren nu is zichzelf kalmeren later."
   },
   {
     id: "mythe-straf-leert",
     mythe: "“Een stevige straf — dan leert hij het wel af.”",
     feit: "Straf leert vooral: niet betrapt worden. Onderzoek koppelt strafgericht opvoeden aan méér liegen, méér agressie en minder ontwikkeld moreel kompas. Grenzen werken; vergelding werkt tegen je.\n\nWat wél werkt: een grens houden, het gedrag benoemen, en een herstelmogelijkheid bieden. Kinderen leren moreel redeneren niet van wat er mét hen gedaan wordt, maar van hoe hun ouder in moeilijke momenten omgaat met conflict — met kalmte, consistentie en verbinding als voorbeeld.",
     bron: "unconditional-parenting",
-    bronDetail: "Decennia onderzoek naar straf: gehoorzaamheid op korte termijn, schade op lange termijn."
+    bronDetail: "Tientallen jaren onderzoek naar straf: gehoorzaamheid op korte termijn, schade op lange termijn."
   },
   {
     id: "mythe-driftbui-aandacht",
     mythe: "“Negeer een driftbui — hij doet het om aandacht.”",
-    feit: "Een echte driftbui is geen toneel maar een overstroomd brein: je kind wíl wel stoppen, maar kan niet. Aandacht voor het gevoel (niet voor de eis!) is precies wat de storm korter maakt. Wat je negeert is het kind, niet de bui.\n\nHet bovenbrein — de prefrontale cortex die redeneert en remt — gaat offline zodra het limbische systeem overspoeld raakt. Een kind in volle driftbui is letterlijk tijdelijk niet in staat logisch te denken. Verbind eerst, corrigeer later: de storm laten zakken voordat je grenzen stelt.",
+    feit: "Een echte driftbui is geen toneel maar een overstroomd brein: je kind wíl wel stoppen, maar kan niet. Aandacht voor het gevoel (niet voor de eis!) is precies wat de storm korter maakt. Wat je negeert is het kind, niet de bui.\n\nHet bovenbrein — het voorste deel dat redeneert en remt — gaat offline zodra het gevoelsbrein overspoeld raakt. Een kind in volle driftbui is letterlijk tijdelijk niet in staat logisch te denken. Verbind eerst, corrigeer later: de storm laten zakken voordat je grenzen stelt.",
     bron: "whole-brain-child",
-    bronDetail: "Het benedenbrein in de overname: zonder co-regulatie duurt de storm langer."
+    bronDetail: "Het benedenbrein in de overname: zonder samen kalmeren duurt de storm langer."
   },
   {
     id: "mythe-streng-respect",
     mythe: "“Kinderen moeten een beetje bang voor je zijn, anders verlies je respect.”",
-    feit: "Angst en respect zijn tegenpolen. Een kind dat bang voor je is, vertelt je minder, liegt meer en gehoorzaamt alleen onder toezicht. Echte autoriteit komt uit verbinding: kinderen volgen wie ze vertrouwen.\n\nNeurowetenschappelijk gezien: angst activeert het overlevingssysteem, niet het leersysteem. Een kind in vecht-of-vluchtmodus absorbeert geen les — het overleeft alleen. Gezag dat werkt, vraagt zowel warmte als stevigheid: wat onderzoekers 'autoritatief' noemen, in tegenstelling tot 'autoritair'.",
+    feit: "Angst en respect zijn tegenpolen. Een kind dat bang voor je is, vertelt je minder, liegt meer en gehoorzaamt alleen onder toezicht. Echt gezag komt uit verbinding: kinderen volgen wie ze vertrouwen.\n\nIn de hersenen geldt: angst zet het overlevingssysteem aan, niet het leersysteem. Een kind in vecht-of-vluchtmodus neemt geen les op — het overleeft alleen. Gezag dat werkt, vraagt zowel warmte als stevigheid: wat onderzoekers 'gezaghebbend' (autoritatief) noemen, in tegenstelling tot 'streng-controlerend' (autoritair).",
     bron: "hold-on-to-your-kids",
     bronDetail: "Gezag werkt alleen binnen hechting; angst verbreekt precies die hechting."
   },
   {
     id: "mythe-zandbak-delen",
     mythe: "“Een goed opgevoed kind deelt altijd meteen.”",
-    feit: "Afgedwongen delen leert dat de hardste roeper wint. Beurten nemen — rustig af mogen maken en dan doorgeven — bouwt frustratietolerantie bij de een en échte gulheid bij de ander. Vrijgevigheid groeit uit veiligheid, niet uit dwang.\n\nVoor een peuter is eigendom een ontwikkelingsthema, geen onbeleefdheid. Kinderen die zelf mogen beslissen wanneer ze iets doorgeven, leren dat vrijgevigheid iets is dat je kiest — en worden later genuanceerder in het omgaan met eigendom en gedeeld gebruik dan kinderen bij wie delen altijd afgedwongen werd.",
+    feit: "Afgedwongen delen leert dat de hardste roeper wint. Beurten nemen — rustig af mogen maken en dan doorgeven — leert de een beter tegen een teleurstelling te kunnen en de ander échte gulheid. Vrijgevigheid groeit uit veiligheid, niet uit dwang.\n\nVoor een peuter is eigendom een ontwikkelingsthema, geen onbeleefdheid. Kinderen die zelf mogen beslissen wanneer ze iets doorgeven, leren dat vrijgevigheid iets is dat je kiest — en gaan later verstandiger om met eigendom en gedeeld gebruik dan kinderen bij wie delen altijd afgedwongen werd.",
     bron: "good-inside",
     bronDetail: "Eigendom en beurten: geven vanuit veiligheid in plaats van dwang."
   },
   {
     id: "mythe-puber-losmaken",
     mythe: "“Pubers moet je vooral loslaten — bemoei je er niet te veel mee.”",
-    feit: "Half waar, dus gevaarlijk. Tieners hebben meer autonomie nodig — maar even veel verbinding. Wie alleen loslaat, levert zijn kind uit aan het oordeel van de peergroep (en het algoritme). Blijf het kalme anker: beschikbaar, nieuwsgierig, zonder verhoor.\n\nNeufeld noemt dit 'peer-oriëntatie': tieners die te vroeg losgemaakt worden, zoeken hun houvast bij leeftijdgenoten. Maar peers zijn instabiel, impulsief en minstens zo zoekend — geen veilige basis. Een ouder die aanwezig blijft zonder te controleren, geeft een tiener iets wat geen peergroup kan bieden: een stabiel referentiepunt.",
+    feit: "Half waar, dus gevaarlijk. Tieners hebben meer zelfstandigheid nodig — maar even veel verbinding. Wie alleen loslaat, levert zijn kind uit aan het oordeel van de groep leeftijdsgenoten (en het algoritme). Blijf het kalme anker: beschikbaar, nieuwsgierig, zonder verhoor.\n\nNeufeld noemt dit 'op leeftijdsgenoten gericht raken': tieners die te vroeg losgemaakt worden, zoeken hun houvast bij leeftijdsgenoten. Maar leeftijdsgenoten zijn wisselvallig, impulsief en minstens zo zoekend — geen veilige basis. Een ouder die aanwezig blijft zonder te controleren, geeft een tiener iets wat geen vriendengroep kan bieden: een vast houvast.",
     bron: "hold-on-to-your-kids",
-    bronDetail: "Peer-oriëntatie: loslaten zonder verbinding is geen vrijheid maar verweesdheid."
+    bronDetail: "Op leeftijdsgenoten gericht raken: loslaten zonder verbinding is geen vrijheid maar in de kou staan."
   },
   {
     id: "mythe-belonen-werkt",
     mythe: "“Belonen is positief, dus altijd beter dan straffen.”",
-    feit: "Beloningen kunnen op korte termijn gedrag kopen, maar ze maken de reden om iets te doen vaak kleiner: het kind doet het voor de sticker, het schermpunt of de euro. Voor vaardigheden en gewoontes werkt samenwerking beter: leg uit, oefen samen, geef autonomie en bouw routines.\n\nKohn toont aan dat externe beloningen intrinsieke motivatie ondermijnen. Een kind dat aanvankelijk graag tekende en daarvoor stickers krijgt, tekent later minder enthousiast dan daarvoor. Samenwerking, uitleg en autonomie houden de échte drijfveer intact.",
+    feit: "Beloningen kunnen op korte termijn gedrag kopen, maar ze maken de reden om iets te doen vaak kleiner: het kind doet het voor de sticker, het schermpunt of de euro. Voor vaardigheden en gewoontes werkt samenwerking beter: leg uit, oefen samen, geef ruimte voor eigen keuze en bouw routines.\n\nKohn toont aan dat beloningen van buitenaf de motivatie van binnenuit ondermijnen. Een kind dat aanvankelijk graag tekende en daarvoor stickers krijgt, tekent later minder enthousiast dan daarvoor. Samenwerking, uitleg en ruimte voor eigen keuze houden de échte drijfveer intact.",
     bron: "unconditional-parenting",
-    bronDetail: "Beloningen als voorwaardelijke controle: ze veranderen de motivatie, niet noodzakelijk het inzicht."
+    bronDetail: "Beloningen als controle via een beloning: ze veranderen de motivatie, niet per se het inzicht."
   },
   {
     id: "mythe-sorry-afdwingen",
@@ -441,16 +441,16 @@ const MYTHES = [
   {
     id: "mythe-huiswerk-politie",
     mythe: "“Als jij huiswerk niet streng opvolgt, wordt je kind lui.”",
-    feit: "Huiswerkpolitie maakt de ouder verantwoordelijk voor iets wat uiteindelijk van het kind moet worden. Je mag structuur bieden, beschikbaar zijn en samen plannen, maar de regie moet geleidelijk terug naar je kind. Controle doodt precies de motivatie die je probeert te kweken.\n\nOnderzoek naar autonomie en motivatie toont consistent: kinderen die eigenaar zijn van hun schoolwerk — ook als ze het soms vergeten — ontwikkelen meer zelfsturing dan kinderen wier agenda permanent bewaakt wordt. Je kunt een rustige plek bieden, meedenken als dat gevraagd wordt, en fouten hun eigen leraar laten zijn.",
+    feit: "Huiswerkpolitie maakt de ouder verantwoordelijk voor iets wat uiteindelijk van het kind moet worden. Je mag structuur bieden, beschikbaar zijn en samen plannen, maar de regie moet geleidelijk terug naar je kind. Controle doodt precies de motivatie die je probeert te kweken.\n\nOnderzoek naar zelfstandigheid en motivatie toont steeds: kinderen die zelf de baas zijn over hun schoolwerk — ook als ze het soms vergeten — leren beter zelf te sturen dan kinderen wier agenda permanent bewaakt wordt. Je kunt een rustige plek bieden, meedenken als dat gevraagd wordt, en fouten hun eigen leraar laten zijn.",
     bron: "self-driven-child",
-    bronDetail: "Autonomie en stress: kinderen leren meer wanneer ze eigenaar blijven van hun werk."
+    bronDetail: "Zelfstandigheid en stress: kinderen leren meer wanneer ze zelf de baas blijven over hun werk."
   },
   {
     id: "mythe-altijd-consequent",
     mythe: "“Je moet altijd consequent zijn, anders nemen kinderen je niet serieus.”",
-    feit: "Betrouwbaar zijn is belangrijk; mechanisch zijn niet. Soms vraagt dezelfde grens een andere aanpak omdat het kind moe, bang, ziek of overprikkeld is. Een stevige ouder houdt de richting vast én stemt af op de situatie. Dat is geen zwakte, dat is leiderschap.\n\nWat kinderen nodig hebben is voorspelbaarheid in waarden en warmte, niet identieke reacties op elk moment. Een grens die gisteren met woorden gesteld werd, mag vandaag met nabijheid en minder woorden gesteld worden als het kind uitgeput is. Consistentie in houding en relatie is kracht; robotmatige regels zijn breekbaar.",
+    feit: "Betrouwbaar zijn is belangrijk; mechanisch zijn niet. Soms vraagt dezelfde grens een andere aanpak omdat het kind moe, bang, ziek of overprikkeld is. Een stevige ouder houdt de richting vast én stemt af op de situatie. Dat is geen zwakte, dat is leiderschap.\n\nWat kinderen nodig hebben is voorspelbaarheid in waarden en warmte, niet identieke reacties op elk moment. Een grens die gisteren met woorden gesteld werd, mag vandaag met nabijheid en minder woorden gesteld worden als het kind uitgeput is. Voorspelbaar zijn in houding en relatie is kracht; robotmatige regels zijn breekbaar.",
     bron: "peaceful-parent",
-    bronDetail: "Warm en stevig tegelijk: verbinding en zelfregulatie vóór automatische controle."
+    bronDetail: "Warm en stevig tegelijk: verbinding en zelf kalm blijven vóór automatische controle."
   },
   {
     id: "mythe-gelijk-behandelen",
@@ -471,42 +471,42 @@ const MYTHES = [
     mythe: "”Een goede ouder beschermt zijn kind tegen falen.”",
     feit: "Falen dat veilig genoeg is, is groeistof. Als jij elk ongemak wegpoetst, leert je kind vooral dat ongemak gevaarlijk is. Blijf nabij, maar neem het stuur niet telkens over: help je kind ademen, nadenken, opnieuw proberen en ontdekken dat teleurstelling draaglijk is.\n\nKinderen die nooit falen leren niet hoe ze met falen omgaan — en dat is het eigenlijke probleem, wanneer falen onvermijdelijk wordt. De aanwezigheid van een ouder die het uithoudt náást een teleurgesteld kind — zonder het op te lossen — leert meer dan succes: het leert dat ongemak eindig is en dat jij er dan ook nog bent.",
     bron: "self-driven-child",
-    bronDetail: "Een gevoel van controle en competentie groeit door zelf proberen, niet door ouderlijke micromanagement."
+    bronDetail: "Een gevoel van controle en het gevoel iets te kunnen groeien door zelf proberen, niet door ouderlijke betutteling."
   },
   {
     id: "mythe-spontane-empathie",
     mythe: "”Kinderen hebben empathie van nature — dat hoef je niet te leren.”",
-    feit: "Empathie is deels aangeboren, maar voor een groot deel aangeleerd. Kinderen die zelf empathisch behandeld worden — wiens gevoelens benoemd en erkend worden — ontwikkelen aanzienlijk meer inlevingsvermogen dan kinderen bij wie gevoelens genegeerd of bespot worden.\n\nGottman noemt ouders die gevoelens benoemen en valideren 'emotion coaches'. Hun kinderen zijn niet alleen empathischer; ze zijn ook veerkrachtiger bij tegenslagen, hebben betere vriendschappen en presteren beter op school. Emotiecoaching is geen extra's bij opvoeden — het is een van de krachtigste dingen die een ouder kan doen.",
+    feit: "Empathie is deels aangeboren, maar voor een groot deel aangeleerd. Kinderen die zelf empathisch behandeld worden — wiens gevoelens benoemd en erkend worden — ontwikkelen aanzienlijk meer inlevingsvermogen dan kinderen bij wie gevoelens genegeerd of bespot worden.\n\nGottman noemt ouders die gevoelens benoemen en erkennen 'gevoelscoaches'. Hun kinderen zijn niet alleen empathischer; ze zijn ook veerkrachtiger bij tegenslagen, hebben betere vriendschappen en presteren beter op school. Emoties begeleiden is geen extraatje bij opvoeden — het is een van de krachtigste dingen die een ouder kan doen.",
     bron: "gottman-eq",
-    bronDetail: "Emotiecoaching als sleutel tot emotionele intelligentie: ouders die gevoelens benoemen, kweken kinderen die dat ook doen."
+    bronDetail: "Emoties begeleiden als sleutel tot emotionele intelligentie: ouders die gevoelens benoemen, kweken kinderen die dat ook doen."
   },
   {
     id: "mythe-jongens-huilen-niet",
     mythe: "”Jongens moet je leren hun emoties te beheersen, niet tonen.”",
-    feit: "Jongens die leren dat huilen of bang zijn 'voor meisjes' is, leren emoties te verhullen — niet te reguleren. Onbewerkte emoties worden agressie, risicogedrag of stille terugtrekking. Jongens die hun gevoelens mogen tonen, worden psychisch veerkrachtiger volwassenen.\n\nNeurobiologisch is er geen verschil in emotionele intensiteit tussen jongens en meisjes — het verschil zit in wat sociaal geleerd en beloond wordt. Jongens die vroeg leren dat boosheid de enige toegestane emotie is, bouwen een emotioneel vocabulaire op van één woord. De boodschap 'jongens huilen niet' is geen kracht — het is een training in zelfarmoede.",
+    feit: "Jongens die leren dat huilen of bang zijn 'voor meisjes' is, leren emoties te verhullen — niet om ermee om te gaan. Onbewerkte emoties worden agressie, risicogedrag of stille terugtrekking. Jongens die hun gevoelens mogen tonen, worden psychisch veerkrachtiger volwassenen.\n\nIn de hersenen is er geen verschil in hoe sterk jongens en meisjes emoties voelen — het verschil zit in wat sociaal geleerd en beloond wordt. Jongens die vroeg leren dat boosheid de enige toegestane emotie is, bouwen een woordenschat voor gevoelens op van één woord. De boodschap 'jongens huilen niet' is geen kracht — het is een training in zelfarmoede.",
     bron: "science-of-parenting",
-    bronDetail: "Neurobiologie van emotieregulatie: emoties onderdrukken versus verwerken — twee fundamenteel andere processen in het brein."
+    bronDetail: "Hoe het brein emoties verwerkt: emoties onderdrukken versus verwerken — twee heel verschillende processen in het brein."
   },
   {
     id: "mythe-keuzevrijheid-verwent",
     mythe: "”Kinderen te veel keuzes geven maakt ze verwend en onzeker.”",
     feit: "Het omgekeerde klopt: kinderen die nooit zelf mogen kiezen, bouwen nauwelijks zelfvertrouwen of beslissingsvaardigheid op. Het gaat om passende keuzes: twee opties voor een kleuter, meer opties naarmate het kind ouder wordt. Geen keuzes geven is oefening onthouden.\n\nStixrud en Johnson benadrukken dat een gevoel van controle — weten dat jouw keuzes ertoe doen — een van de krachtigste buffers tegen stress en angst is. Kinderen die in kleine dingen zeggenschap hadden, navigeren grote beslissingen later gemakkelijker. Begin klein: welke pyjama, welke appel, welke route naar school.",
     bron: "self-driven-child",
-    bronDetail: "Gevoel van controle als buffer tegen stress en als motor van intrinsieke motivatie."
+    bronDetail: "Gevoel van controle als buffer tegen stress en als motor van motivatie van binnenuit."
   },
   {
     id: "mythe-vrij-spel-verspilling",
     mythe: "”Vrij spelen zonder doel is tijdverspilling — beter nuttige activiteiten.”",
-    feit: "Vrij spel is de rijkste leerschool die bestaat: sociale vaardigheden, conflictoplossing, impulscontrole, creativiteit en risicoberekening worden allen geoefend in niet-gestructureerd spel. Georganiseerde activiteiten versterken specifieke vaardigheden — vrij spel bouwt het hele kind.\n\nHaidt laat zien dat de generatie die opgroeide met volle agenda's en weinig ongestructureerde buitentijd psychisch kwetsbaarder is dan voorgaande generaties. Verveling is niet de vijand van leren — het is de voorwaarde voor creativiteit, eigen initiatief en het vermogen om zelf richting te vinden.",
+    feit: "Vrij spel is de rijkste leerschool die bestaat: sociale vaardigheden, ruzies oplossen, zichzelf inhouden, creativiteit en risico's inschatten worden allemaal geoefend in vrij, ongepland spel. Georganiseerde activiteiten versterken specifieke vaardigheden — vrij spel bouwt het hele kind.\n\nHaidt laat zien dat de generatie die opgroeide met volle agenda's en weinig ongestructureerde buitentijd psychisch kwetsbaarder is dan voorgaande generaties. Verveling is niet de vijand van leren — het is de voorwaarde voor creativiteit, eigen initiatief en het vermogen om zelf richting te vinden.",
     bron: "anxious-generation",
     bronDetail: "De verdwijnende speelkindertijd: hoe het vervangen van vrij spel door gestructureerde activiteiten de volgende generatie minder veerkrachtig maakte."
   },
   {
     id: "mythe-stress-zelf-oplossen",
     mythe: "”Je kind moet leren met stress om te gaan zonder jouw hulp.”",
-    feit: "Co-regulatie — een volwassene die mee-kalmeert — is de enige manier waarop jonge kinderen het zenuwstelsel leren reguleren. Zelfregulatie is een eindpunt, co-regulatie is de weg ernaartoe. Een kind dat altijd alleen moet kalmeren, leert juist dat stress onoverwinnelijk is.\n\nSiegel en Bryson beschrijven hoe de prefrontale cortex zich pas volledig ontwikkelt rond het vijfentwintigste levensjaar. Tot die tijd leent een kind de gereguleerde hersenen van een volwassene. Wie nabij blijft tijdens moeilijke momenten, traint letterlijk de circuits die het kind later zelf nodig heeft.",
+    feit: "Samen kalmeren (co-regulatie) — een volwassene die mee-kalmeert — is de enige manier waarop jonge kinderen hun zenuwstelsel leren kalmeren. Zichzelf kalmeren is een eindpunt, samen kalmeren is de weg ernaartoe. Een kind dat altijd alleen moet kalmeren, leert juist dat stress onoverwinnelijk is.\n\nSiegel en Bryson beschrijven hoe het voorste deel van het brein (de prefrontale cortex) zich pas volledig ontwikkelt rond het vijfentwintigste levensjaar. Tot die tijd leent een kind de rustige hersenen van een volwassene. Wie nabij blijft tijdens moeilijke momenten, traint letterlijk de verbindingen die het kind later zelf nodig heeft.",
     bron: "power-of-showing-up",
-    bronDetail: "De vier S'en van veilige hechting: Safe, Seen, Soothed, Secure — gerust stellen is biologisch noodzakelijk, geen verwennen."
+    bronDetail: "De vier S'en van veilige hechting (Safe, Seen, Soothed, Secure — veilig, gezien, getroost, zeker): gerust stellen is biologisch noodzakelijk, geen verwennen."
   },
   {
     id: "mythe-sociaal-media-voorlichting",
@@ -525,37 +525,37 @@ const MYTHES = [
   {
     id: "mythe-tiener-hoort-te-rebelleren",
     mythe: "”Rebelsheid bij tieners is normaal en je moet het maar ondergaan.”",
-    feit: "Conflict en autonomiezoeking zijn normaal; intense, aanhoudende vijandigheid of gevaarlijk gedrag niet. Tieners die voldoende gehoord worden en echte autonomie krijgen, rebelleren doorgaans minder fel dan tieners die alles moeten bevechten. De mate van rebellie is deels een spiegel van de relatie.\n\nNeufeld laat zien dat tieners die rebel gedrag vertonen vaak niet rebellen tegen hun ouders, maar naar verbinding zoeken op de enige manier die hen overgelaten is. Een tiener die weet dat zijn ouder hem hoort, hoeft zijn identiteit niet via verzet te bouwen. Inspraak geven is krachtiger dan grenzen versoepelen.",
+    feit: "Conflict en het zoeken naar zelfstandigheid zijn normaal; intense, aanhoudende vijandigheid of gevaarlijk gedrag niet. Tieners die voldoende gehoord worden en echte zelfstandigheid krijgen, rebelleren doorgaans minder fel dan tieners die alles moeten bevechten. De mate van rebellie is deels een spiegel van de relatie.\n\nNeufeld laat zien dat tieners die rebel gedrag vertonen vaak niet rebellen tegen hun ouders, maar naar verbinding zoeken op de enige manier die hen overgelaten is. Een tiener die weet dat zijn ouder hem hoort, hoeft zijn identiteit niet via verzet te bouwen. Inspraak geven is krachtiger dan grenzen versoepelen.",
     bron: "hold-on-to-your-kids",
-    bronDetail: "Peer-oriëntatie als substituut voor oudercontact: een goed verbonden tiener heeft minder nodig om zich te bewijzen via verzet."
+    bronDetail: "Op leeftijdsgenoten gericht raken als vervanging voor oudercontact: een goed verbonden tiener heeft minder nodig om zich te bewijzen via verzet."
   },
   {
     id: "mythe-knuffels-afdwingen",
-    mythe: "”Kinderen moeten family knuffelen, ook als ze niet willen — dat is beleefdheid.”",
-    feit: "Een kind dat geleerd heeft zijn eigen lichaamsgrens te negeren voor sociale beleefdheid, heeft ook minder tools om die grens bij anderen te bewaken. Bodily autonomy — het recht te beslissen wie je aanraakt — begint thuis, in de veiligste omgeving. Begroet op manieren die voor je kind voelen.\n\nJe kunt alternatieven aanbieden — een handshake, een wave, een 'dag' zeggen — zonder het kind te verplichten tot lichamelijk contact. En je kunt dat uitleggen aan de teleurgestelde tante. Dat gesprek, hoe ongemakkelijk ook, is een van de krachtigste dingen die een ouder kan doen om het vertrouwen van een kind te verdienen.",
+    mythe: "”Kinderen moeten familie knuffelen, ook als ze niet willen — dat is beleefdheid.”",
+    feit: "Een kind dat geleerd heeft zijn eigen lichaamsgrens te negeren voor sociale beleefdheid, heeft ook minder middelen om die grens bij anderen te bewaken. Baas zijn over je eigen lichaam — het recht te beslissen wie je aanraakt — begint thuis, in de veiligste omgeving. Begroet op manieren die voor je kind voelen.\n\nJe kunt alternatieven aanbieden — een hand geven, zwaaien, een 'dag' zeggen — zonder het kind te verplichten tot lichamelijk contact. En je kunt dat uitleggen aan de teleurgestelde tante. Dat gesprek, hoe ongemakkelijk ook, is een van de krachtigste dingen die een ouder kan doen om het vertrouwen van een kind te verdienen.",
     bron: "philippa-perry",
     bronDetail: "Het lichaam als eigendom van het kind: begroeten op commando ondermijnt dezelfde grens die beschermt tegen grensoverschrijding later."
   },
   {
     id: "mythe-praattherapie-voor-peuters",
     mythe: "”Jonge kinderen kunnen hun problemen niet verwerken — ze zijn te klein.”",
-    feit: "Jonge kinderen verwerken niet via woorden maar via spel, lichaamscontact en routine. Ze begrijpen en registreren veel meer dan hun taalvermogen toelaat. Een peuter die moeilijke ervaringen meemaakt, heeft evengoed verwerking nodig — maar via nabijheid, verhalen en spel, niet via gesprek.\n\nSiegel en Bryson beschrijven hoe verhalen vertellen — ook vereenvoudigd, ook metaforisch — het brein helpt moeilijke ervaringen te integreren. Samen een boek lezen over iets wat het kind meemaakte, of een situatie naspelen, doet meer dan vragen 'hoe voel jij je?'. Spel is de taal van het jonge brein.",
+    feit: "Jonge kinderen verwerken niet via woorden maar via spel, lichaamscontact en routine. Ze begrijpen en registreren veel meer dan hun taalvermogen toelaat. Een peuter die moeilijke ervaringen meemaakt, heeft evengoed verwerking nodig — maar via nabijheid, verhalen en spel, niet via gesprek.\n\nSiegel en Bryson beschrijven hoe verhalen vertellen — ook vereenvoudigd, ook in beeldspraak — het brein helpt moeilijke ervaringen een plek te geven. Samen een boek lezen over iets wat het kind meemaakte, of een situatie naspelen, doet meer dan vragen 'hoe voel jij je?'. Spel is de taal van het jonge brein.",
     bron: "whole-brain-child",
-    bronDetail: "Het verhalende brein en spel als verwerkingsroute: waarom woorden soms het verkeerde kanaal zijn voor jonge kinderen."
+    bronDetail: "Het verhalende brein en spel als manier om te verwerken: waarom woorden soms de verkeerde weg zijn voor jonge kinderen."
   },
   {
     id: "mythe-kind-gelukkig-houden",
     mythe: "”De taak van een ouder is zijn kind gelukkig maken.”",
-    feit: "Geluk is een neveneffect, geen opvoeddoel. Kinderen die geluk als recht krijgen aangeleerd, bouwen weinig frustratietolerantie op. De taak is een kind te helpen zijn eigen binnenkant te leren kennen en verdragen — ook ongemak, verveling en teleurstelling — zodat geluk betekenis heeft als het er is.\n\nKohn beschrijft hoe ouders die telkens interveniëren bij ongemak hun kinderen onbedoeld leren dat verdriet een fout is en dat een volwassene het moet oplossen. Wat kinderen weerbaar maakt, is niet afwezigheid van verdriet, maar de ervaring dat ze verdriet kunnen verdragen en dat het vanzelf weer verandert.",
+    feit: "Geluk is een neveneffect, geen opvoeddoel. Kinderen die geluk als recht krijgen aangeleerd, leren weinig tegen een teleurstelling te kunnen. De taak is een kind te helpen zijn eigen binnenkant te leren kennen en verdragen — ook ongemak, verveling en teleurstelling — zodat geluk betekenis heeft als het er is.\n\nKohn beschrijft hoe ouders die telkens ingrijpen bij ongemak hun kinderen onbedoeld leren dat verdriet een fout is en dat een volwassene het moet oplossen. Wat kinderen weerbaar maakt, is niet afwezigheid van verdriet, maar de ervaring dat ze verdriet kunnen verdragen en dat het vanzelf weer verandert.",
     bron: "unconditional-parenting",
-    bronDetail: "Voorwaardelijke versus onvoorwaardelijke opvoeding: wie geluk als doel stelt, maakt elk verdriet tot een opvoedmislukking."
+    bronDetail: "Opvoeden met of zonder voorwaarden: wie geluk als doel stelt, maakt elk verdriet tot een opvoedmislukking."
   },
   {
     id: "mythe-boekjes-te-vroeg",
     mythe: "”Voorlezen heeft pas zin als een kind woorden begrijpt.”",
-    feit: "Voorlezen heeft zin vanaf geboorte. De melodie van taal, het ritme, de stem en de nabijheid: dat alles bouwt hersencircuits voor taal, aandacht en hechting. Baby's die veel voorgelezen worden, hebben op school significant grotere woordenschat en betere leesprestaties.\n\nDe dagelijkse routine van voorlezen bouwt ook een ritme van verbinding: een kind leert dat er een moment is waarop een volwassene volledig voor hem aanwezig is. Die voorspelbare nabijheid — los van de taalwinst — is al een reden om te beginnen, lang voor het eerste woord.",
+    feit: "Voorlezen heeft zin vanaf de geboorte. De melodie van taal, het ritme, de stem en de nabijheid: dat alles bouwt hersenverbindingen voor taal, aandacht en hechting. Baby's die veel voorgelezen worden, hebben op school een duidelijk grotere woordenschat en betere leesprestaties.\n\nDe dagelijkse routine van voorlezen bouwt ook een ritme van verbinding: een kind leert dat er een moment is waarop een volwassene volledig voor hem aanwezig is. Die voorspelbare nabijheid — los van de taalwinst — is al een reden om te beginnen, lang voor het eerste woord.",
     bron: "raising-good-humans",
-    bronDetail: "Taalverwerving via blootstelling: het klankritme van verhalen bouwt de neurologische basis voor lezen, vóór het eerste woord."
+    bronDetail: "Taal leren door eraan blootgesteld te worden: het klankritme van verhalen bouwt de basis in het brein voor lezen, vóór het eerste woord."
   },
   {
     id: "mythe-eerlijk-zijn-hurt",
@@ -607,7 +607,7 @@ MYTHES.push(
     mythe: "”Pubers zijn gewoon lui als ze ’s ochtends niet vooruit raken.”",
     feit: "Het tienerbrein verschuift biologisch later op de avond, terwijl school vaak vroeg begint. Slaaptekort lijkt dan op luiheid, humeurigheid of onwil. Structuur helpt, beschaming niet.\n\nSlaaponderzoek toont dat tieners bij vroege begintijden letterlijk in een andere slaapfase zitten. Scholen die later beginnen, zien verbeterde leerprestaties, minder depressieve klachten en minder ongelukken onder jonge bestuurders. Het is biologie, geen karakter — en beschaming maakt het slaaptekort alleen groter.",
     bron: "nurtureshock",
-    bronDetail: "Onderzoek naar slaaptekort toont effecten op stemming, leren, impulscontrole en schoolprestaties."
+    bronDetail: "Onderzoek naar slaaptekort toont effecten op stemming, leren, zelfbeheersing en schoolprestaties."
   },
   {
     id: "mythe-liegen-karakter",
@@ -619,9 +619,9 @@ MYTHES.push(
   {
     id: "mythe-hechting-eerste-jaar",
     mythe: "”Hechting wordt in het eerste jaar vastgelegd; daarna is het klaar.”",
-    feit: "Het eerste jaar is belangrijk, maar hechting blijft relationeel onderhoud. Herstel na fouten, opnieuw verbinden na conflict en voorspelbaar beschikbaar blijven veranderen de relatie ook later nog.\n\nSiegel en Bryson beschrijven hoe 'rupture and repair' — het herstellen van een breuk in de relatie — een van de krachtigste vormen van hechting opbouwen is. Een ouder die zichzelf terugvindt na een uitbarsting en dat erkent, laat zien dat relaties breuken aankunnen. Dat is misschien wel de meest geruststellende boodschap die een kind kan ontvangen.",
+    feit: "Het eerste jaar is belangrijk, maar hechting blijft iets wat je onderhoudt in de relatie. Herstel na fouten, opnieuw verbinden na conflict en voorspelbaar beschikbaar blijven veranderen de relatie ook later nog.\n\nSiegel en Bryson beschrijven hoe 'breuk en herstel' — het herstellen van een breuk in de relatie — een van de krachtigste vormen is om hechting op te bouwen. Een ouder die zichzelf terugvindt na een uitbarsting en dat erkent, laat zien dat relaties breuken aankunnen. Dat is misschien wel de meest geruststellende boodschap die een kind kan ontvangen.",
     bron: "power-of-showing-up",
-    bronDetail: "De vier S'en zijn geen babylijstje maar een levenslange taal van veiligheid: safe, seen, soothed, secure."
+    bronDetail: "De vier S'en zijn geen babylijstje maar een levenslange taal van veiligheid: safe, seen, soothed, secure (veilig, gezien, getroost, zeker)."
   },
   {
     id: "mythe-ruzie-verbergen",
@@ -643,16 +643,16 @@ MYTHES.push(
   {
     id: "mythe-dessert-verdienen",
     mythe: "”Dessert moet je verdienen door je bord leeg te eten.”",
-    feit: "Zo maak je groenten de klus en dessert de trofee. Een kind leert dan niet naar zijn lijf luisteren, maar naar jouw beloningssysteem. Dessert kan begrensd zijn zonder het als machtsmiddel te gebruiken.\n\nSatter adviseert dessert in een vaste, kleine portie als onderdeel van de maaltijd aan te bieden — niet als beloning achteraf. Zo verliest het zijn speciale machtspositie en leert het kind ook dessert in verhouding te eten. De hiërarchie 'dit is lekker, dat moet je verdienen' stuurt kinderen juist naar het verbodene.",
+    feit: "Zo maak je groenten de klus en dessert de trofee. Een kind leert dan niet naar zijn lijf luisteren, maar naar jouw beloningssysteem. Dessert kan begrensd zijn zonder het als machtsmiddel te gebruiken.\n\nSatter adviseert dessert in een vaste, kleine portie als onderdeel van de maaltijd aan te bieden — niet als beloning achteraf. Zo verliest het zijn speciale machtspositie en leert het kind ook dessert in verhouding te eten. De rangorde 'dit is lekker, dat moet je verdienen' stuurt kinderen juist naar het verbodene.",
     bron: "child-of-mine",
-    bronDetail: "Dessert koppelen aan groenten maakt eten voorwaardelijk en vergroot de hiërarchie tussen voedselsoorten."
+    bronDetail: "Dessert koppelen aan groenten maakt eten iets om te verdienen en vergroot de rangorde tussen soorten eten."
   },
   {
     id: "mythe-honger-eet-wel",
     mythe: "”Als een kind honger heeft, eet het vanzelf wel.”",
-    feit: "Vaak klopt dat bij gezonde kinderen met rustige structuur, maar niet altijd. Angst, druk, pijn, slikproblemen, sensorische gevoeligheid of groeizorgen kunnen eten blokkeren. Gebruik deze zin dus niet als reden om alarmsignalen te negeren.\n\nSatter benadrukt dat de taakverdeling aan tafel vertrouwen in het kind inhoudt — maar ook observatie en verantwoordelijkheid van de ouder. Groeikrommen, energie, concentratie en eetplezier zijn signalen om in de gaten te houden. Vertrouwen en oplettendheid sluiten elkaar niet uit.",
+    feit: "Vaak klopt dat bij gezonde kinderen met rustige structuur, maar niet altijd. Angst, druk, pijn, slikproblemen, gevoeligheid voor prikkels of groeizorgen kunnen eten blokkeren. Gebruik deze zin dus niet als reden om alarmsignalen te negeren.\n\nSatter benadrukt dat de taakverdeling aan tafel vertrouwen in het kind inhoudt — maar ook observatie en verantwoordelijkheid van de ouder. Groeikrommen, energie, concentratie en eetplezier zijn signalen om in de gaten te houden. Vertrouwen en oplettendheid sluiten elkaar niet uit.",
     bron: "child-of-mine",
-    bronDetail: "Vertrouwen in eetregulatie vraagt tegelijk structuur, observatie en hulp bij medische of sensorische signalen."
+    bronDetail: "Vertrouwen in hoe een kind eet vraagt tegelijk structuur, opletten en hulp bij medische signalen of prikkelgevoeligheid."
   },
   {
     id: "mythe-grazen-gezond",
@@ -685,7 +685,7 @@ MYTHES.push(
   {
     id: "mythe-explosief-manipuleert",
     mythe: "”Een explosief kind manipuleert gewoon om zijn zin te krijgen.”",
-    feit: "Terugkerende explosies wijzen vaak op ontbrekende vaardigheden: flexibiliteit, frustratietolerantie, probleemoplossing of taal voor zorgen. Consequenties stapelen lost dat tekort niet op; het probleem samen oplossen wel.\n\nGreene's Collaborative Problem Solving werkt vanuit één inzicht: ontmoet het kind bij zijn werkelijke drempel, niet bij jouw verwachting. Dat vraagt proactief uitzoeken welke situaties steeds ontploffen, en samen — vóór de volgende explosie — een haalbare aanpak afspreken. Dat is geen toegeven; dat is doelgericht werken aan de vaardigheid die ontbreekt.",
+    feit: "Terugkerende explosies wijzen vaak op ontbrekende vaardigheden: flexibiliteit, tegen een teleurstelling kunnen, problemen oplossen of woorden vinden voor zorgen. Consequenties stapelen lost dat tekort niet op; het probleem samen oplossen wel.\n\nGreene's aanpak 'samen problemen oplossen' werkt vanuit één inzicht: ontmoet het kind bij zijn werkelijke drempel, niet bij jouw verwachting. Dat vraagt vooraf uitzoeken welke situaties steeds ontploffen, en samen — vóór de volgende explosie — een haalbare aanpak afspreken. Dat is geen toegeven; dat is doelgericht werken aan de vaardigheid die ontbreekt.",
     bron: "explosive-child",
     bronDetail: "Greene's uitgangspunt: kinderen doen het goed als ze kunnen; als dat niet lukt, mist er een vaardigheid of ligt er een onopgelost probleem."
   },
@@ -760,7 +760,7 @@ const REGELS = [
   },
   {
     titel: "Jouw kalmte komt eerst",
-    tekst: "Je kunt een kinderbrand niet blussen met je eigen vlammen. Zelfregulatie van de ouder is geen luxe maar stap nul van elke techniek — adem, vertraag, en handel dán.",
+    tekst: "Je kunt een kinderbrand niet blussen met je eigen vlammen. Dat jij zelf kalm blijft is geen luxe maar stap nul van elke techniek — adem, vertraag, en handel dán.",
     bron: "peaceful-parent"
   },
   {
@@ -784,7 +784,7 @@ const REGELS = [
     bron: "nurtureshock"
   },
   {
-    titel: "Wees consultant, geen baas",
+    titel: "Wees adviseur, geen baas",
     tekst: "Het gevoel zélf te mogen sturen is de sterkste motor voor motivatie en de beste buffer tegen stress. Geef je kind elke beslissing die het aankan — en eentje meer dan comfortabel voelt.",
     bron: "self-driven-child"
   },

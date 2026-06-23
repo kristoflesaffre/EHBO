@@ -52,7 +52,7 @@ const VRAGEN_12 = [
     ],
     ["“Je mag privé-dingen hebben. Als iets onveilig of te zwaar is, wil ik dat je niet alleen bent.”"],
     [
-      ["self-driven-child", "Autonomie en eigen ruimte horen bij gezonde ontwikkeling."],
+      ["self-driven-child", "Zelfstandigheid en eigen ruimte horen bij gezonde ontwikkeling."],
       ["hold-on-to-your-kids", "Beschikbaarheid zonder verhoor houdt de ouder-kindlijn open."]
     ],
     ["privacy-wachtwoorden", "ik-vraag-teveel-door"]
@@ -79,7 +79,7 @@ const VRAGEN_12 = [
     ],
     ["“Ik ben blij je te zien. Ik drink water en dan ben ik bij je.”"],
     [
-      ["peaceful-parent", "Ouderlijke zelfregulatie is stap nul voor verbinding en correctie."],
+      ["peaceful-parent", "Een ouder die zelf kalm blijft is stap nul voor verbinding en correctie."],
       ["philippa-perry", "Herstel en aanwezigheid wegen zwaarder dan perfect reageren."]
     ],
     ["tijdgebrek-quality-time", "ouderlijke-schuld"]
@@ -241,7 +241,7 @@ const VRAGEN_12 = [
     ],
     ["“In dit huis draagt iedereen iets bij. Ik leer je eerst hoe.”"],
     [
-      ["self-driven-child", "Verantwoordelijkheid groeit door passende eigenaarschap en duidelijke structuur."],
+      ["self-driven-child", "Verantwoordelijkheid groeit doordat een kind passende taken zelf in handen krijgt, met duidelijke structuur."],
       ["unconditional-parenting", "Samenwerken werkt duurzamer dan controle via belonen en straffen."]
     ],
     ["klusjes-in-gezin", "zakgeld-verantwoordelijkheid"]
@@ -318,7 +318,7 @@ const VRAGEN_12 = [
     [
       "Blijven tot je kind volledig instort.",
       "Je kind dwingen tot knuffels of sociaal toneel.",
-      "Alle familieverwachtingen boven regulatie zetten."
+      "Alle familieverwachtingen boven rust en kalmte zetten."
     ],
     ["“We nemen even pauze. Het is veel vandaag.”"],
     [
@@ -350,7 +350,7 @@ const VRAGEN_12 = [
     ["“Dit bespreken we na het eten. Aan tafel houden we het veilig.”"],
     [
       ["hold-on-to-your-kids", "Gezinsrituelen zoals samen eten dragen verbinding wanneer ze veilig blijven."],
-      ["gottman-eq", "Emoties erkennen en grenzen op kwetsend gedrag houden voorkomt escalatie."]
+      ["gottman-eq", "Emoties erkennen en grenzen op kwetsend gedrag houden voorkomt dat het uit de hand loopt."]
     ],
     ["maaltijd-als-strijd", "schermen-bij-eten"]
   ),
@@ -457,7 +457,7 @@ const VRAGEN_12 = [
     ],
     ["“Vakantie is anders. We houden een paar dingen hetzelfde zodat je lijf mee kan.”"],
     [
-      ["nurtureshock", "Slaap en ritme beïnvloeden gedrag en emotieregulatie sterk."],
+      ["nurtureshock", "Slaap en ritme beïnvloeden gedrag en het kalmeren van emoties sterk."],
       ["peaceful-parent", "Voorspelbaarheid en ouderlijke kalmte helpen bij overgangen."]
     ],
     ["slaap-hoe-belangrijk", "paniek-bij-verandering"]
@@ -512,7 +512,7 @@ const VRAGEN_12 = [
     ["“Hij is dood. Dat betekent dat zijn lichaam niet meer werkt. We mogen heel verdrietig zijn.”"],
     [
       ["philippa-perry", "Kinderen hebben eerlijke, draaglijke waarheid nodig in plaats van verwarrende verzachting."],
-      ["gottman-eq", "Verdriet benoemen en valideren helpt kinderen rouw dragen."]
+      ["gottman-eq", "Verdriet benoemen en erkennen helpt kinderen rouw dragen."]
     ],
     ["moeilijk-nieuws-uitleggen", "verdriet-om-vriendschap"]
   ),
@@ -551,7 +551,7 @@ const VRAGEN_12 = [
     ["eigen plek", "druk gezin", "privacy", "rust", "ruimte"],
     "Eigen plek hoeft geen eigen kamer te zijn. Het kan een mand, plank, hoek, ritueel of tijdslot zijn waar je kind niet gestoord wordt.",
     "In drukke gezinnen raken kinderen soms hun gevoel van eigenheid kwijt: spullen worden gedeeld, aandacht is schaars, geluid is overal. Een eigen plek helpt het zenuwstelsel landen.",
-    "Maak eigenaarschap tastbaar",
+    "Maak eigen verantwoordelijkheid tastbaar",
     "Kies samen wat van je kind is en wanneer het rust mag hebben. Bescherm die afspraak ook tegenover broers, zussen en volwassenen.",
     [
       "Maak een eigen bak, plank of hoek.",
@@ -565,7 +565,7 @@ const VRAGEN_12 = [
     ],
     ["“Dit is jouw plek. Anderen vragen eerst.”"],
     [
-      ["self-driven-child", "Eigenaarschap en controle over kleine domeinen ondersteunen zelfregulatie."],
+      ["self-driven-child", "Zelf de baas zijn en controle over kleine gebieden ondersteunen het zichzelf kalmeren."],
       ["good-inside", "Grenzen rond lichaam, spullen en ruimte helpen kinderen zich veilig voelen."]
     ],
     ["kinderen-delen-kamer", "ongelijke-aandacht"]

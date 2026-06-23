@@ -38,7 +38,7 @@ const VRAGEN_2 = [
       { boek: "unconditional-parenting", detail: "Kernthese: straf (en beloning) is voorwaardelijke controle; onderzoek toont meer agressie, meer liegen en zwakkere morele ontwikkeling bij strafgericht opvoeden." },
       { boek: "how-to-talk", detail: "Hoofdstuk ‘Alternatieven voor straf’: probleem benoemen, informatie geven, keuze bieden, samen problemen oplossen." },
       { boek: "good-inside", detail: "Time-out wordt time-in; grens + warmte tegelijk; gedrag is een ontbrekende vaardigheid, geen te breken wil." },
-      { boek: "gottman-eq", detail: "Strafgerichte (afkeurende) ouders krijgen kinderen die slechter reguleren en minder vertellen." }
+      { boek: "gottman-eq", detail: "Straffende, afkeurende ouders krijgen kinderen die zichzelf slechter kalmeren en minder vertellen." }
     ],
     gerelateerd: ["timeout-hoek-zetten", "belonen-stickers", "nee-zeggen-zonder-drama", "kind-liegt"]
   },
@@ -76,7 +76,7 @@ const VRAGEN_2 = [
     bronnen: [
       { boek: "unconditional-parenting", detail: "Time-out als verplichte afzondering kan liefde en aandacht voorwaardelijk laten voelen; Kohn pleit voor samenwerking in plaats van controle." },
       { boek: "good-inside", detail: "Time-out wordt time-in: grens houden terwijl de relatie beschikbaar blijft." },
-      { boek: "whole-brain-child", detail: "Een overspoeld brein leert pas na regulatie; eerst verbinden en kalmeren, daarna pas reflecteren." },
+      { boek: "whole-brain-child", detail: "Een overspoeld brein leert pas als het gekalmeerd is; eerst verbinden en kalmeren, daarna pas nadenken." },
       { boek: "how-to-talk", detail: "Alternatieven voor straf: probleem beschrijven, informatie geven, keuzes bieden en later samen oplossen." }
     ],
     gerelateerd: ["straffen-werkt", "slaan-bijten-schoppen", "driftbui-reageren", "consequentie-of-straf"]
@@ -91,7 +91,7 @@ const VRAGEN_2 = [
     kort: "Liever niet als systeem. Beloningen werken zolang de beloning duurt — en doden ondertussen de interesse in de taak zelf. Voor noodgevallen oké, als levensstijl een valstrik.",
     blokken: [
       { tekst: "De stickerkaart voelt als de vriendelijke tegenhanger van straf, maar Kohn laat zien dat het <strong>dezelfde machine in een vrolijk jasje</strong> is: doe wat ik wil en je krijgt iets fijns. Het onderzoek is consistent: beloon kinderen voor iets wat ze al graag deden (tekenen, lezen, helpen), en de interesse zakt zodra de beloning stopt. De activiteit is ‘werk’ geworden dat enkel telt mét loon." },
-      { kop: "Wat je eigenlijk traint", tekst: "Een beloningssysteem verschuift de vraag in het kinderhoofd van “wat voor iemand wil ik zijn?” naar “wat levert het op?”. Stixrud & Johnson vullen aan: échte motivatie ontstaat uit autonomie, competentie en verbondenheid — alle drie dingen die een stickerkaart juist buiten het kind legt. Het kind gehoorzaamt het systeem in plaats van zichzelf te besturen." },
+      { kop: "Wat je eigenlijk traint", tekst: "Een beloningssysteem verschuift de vraag in het kinderhoofd van “wat voor iemand wil ik zijn?” naar “wat levert het op?”. Stixrud & Johnson vullen aan: échte motivatie ontstaat uit zelfstandigheid, het gevoel iets te kunnen, en verbondenheid — alle drie dingen die een stickerkaart juist buiten het kind legt. Het kind gehoorzaamt het systeem in plaats van zichzelf te sturen." },
       { kop: "Wat dan wel?", tekst: "Maak helpen normaal in plaats van betaald: kinderen wíllen ergens bijhoren en bijdragen. Geef ze echte verantwoordelijkheid (“jij bent van de plantjes”), benoem het effect van hun gedrag (“je zusje straalt omdat jij haar hielp”) en vier samen zonder transactie. Zakgeld mag — als leergeld voor omgaan met geld, niet als loon voor fatsoen." }
     ],
     doeDit: [
@@ -106,9 +106,9 @@ const VRAGEN_2 = [
     ],
     zegDit: null,
     bronnen: [
-      { boek: "unconditional-parenting", detail: "Beloningen als spiegelbeeld van straf: onderzoek naar dalende intrinsieke motivatie en de boodschap van voorwaardelijke goedkeuring." },
-      { boek: "self-driven-child", detail: "Motivatie groeit uit autonomie en competentie; externe sturing verdringt het interne kompas." },
-      { boek: "nurtureshock", detail: "Het lof-hoofdstuk: ook verbale beloningen (algemene lof) kunnen motivatie en doorzettingsvermogen ondermijnen." }
+      { boek: "unconditional-parenting", detail: "Beloningen als spiegelbeeld van straf: onderzoek naar dalende motivatie van binnenuit en de boodschap dat goedkeuring van presteren afhangt." },
+      { boek: "self-driven-child", detail: "Motivatie groeit uit zelfstandigheid en het gevoel iets te kunnen; sturen van buitenaf verdringt het innerlijke kompas." },
+      { boek: "nurtureshock", detail: "Het lof-hoofdstuk: ook beloningen met woorden (algemene lof) kunnen motivatie en doorzettingsvermogen ondermijnen." }
     ],
     gerelateerd: ["straffen-werkt", "goed-prijzen", "huiswerk-oorlog"]
   },
@@ -196,9 +196,9 @@ const VRAGEN_2 = [
     tags: ["liegen", "jokken", "waarheid", "vertrouwen", "stiekem", "betrappen"],
     kort: "Strenger straffen maakt kinderen niet eerlijker — alleen betere leugenaars. Maak de waarheid veilig en goedkoop: minder verhoor, meer ‘ik word niet boos als je het eerlijk vertelt’ (en meen dat).",
     blokken: [
-      { tekst: "NurtureShock wijdt er een ontnuchterend hoofdstuk aan: <strong>vrijwel alle kinderen liegen</strong>, het begint jonger dan je denkt, en het is cognitief gezien een mijlpaal (je moet de waarheid kennen én andermans perspectief snappen om te kunnen liegen). Belangrijker: in strenge strafklimaten liegen kinderen niet minder — ze liegen méér en geraffineerder. De leugen is risicobeheer." },
-      { kop: "De val van het verhoor", tekst: "“Heb jij dat gedaan?!” terwijl je het antwoord al weet, is geen vraag — het is een uitnodiging tot liegen met een camera erbij. Het kind staat voor de keuze: waarheid + zekere straf, of leugen + kans op ontsnapping. Elk rationeel brein kiest optie twee. Stel dus geen vragen waarvan je het antwoord kent; benoem wat je ziet en ga naar de oplossing." },
-      { kop: "Maak eerlijkheid de winnende strategie", tekst: "Uit het onderzoek in NurtureShock: kinderen vertellen vaker de waarheid als twee dingen samen gelden — ze maken papa/mama blij mét de waarheid, én de waarheid leidt niet tot escalatie. Becky Kennedy vult aan: een kind dat veel liegt, vertelt je iets over de veiligheid om fouten te mogen maken in huis. Verlaag de prijs van de waarheid en de leugen verliest zijn functie." }
+      { tekst: "NurtureShock wijdt er een eerlijk hoofdstuk aan: <strong>vrijwel alle kinderen liegen</strong>, het begint jonger dan je denkt, en het is eigenlijk een knappe stap in de ontwikkeling (je moet de waarheid kennen én snappen hoe iemand anders denkt om te kunnen liegen). Belangrijker: in een streng strafklimaat liegen kinderen niet minder — ze liegen méér en slimmer. De leugen is een manier om risico te beperken." },
+      { kop: "De val van het verhoor", tekst: "“Heb jij dat gedaan?!” terwijl je het antwoord al weet, is geen vraag — het is een uitnodiging tot liegen met een camera erbij. Het kind staat voor de keuze: waarheid + zekere straf, of leugen + kans op ontsnapping. Elk verstandig brein kiest optie twee. Stel dus geen vragen waarvan je het antwoord kent; benoem wat je ziet en ga naar de oplossing." },
+      { kop: "Maak eerlijkheid de winnende strategie", tekst: "Uit het onderzoek in NurtureShock: kinderen vertellen vaker de waarheid als twee dingen samen gelden — ze maken papa/mama blij mét de waarheid, én de waarheid leidt niet tot ruzie of straf. Becky Kennedy vult aan: een kind dat veel liegt, vertelt je iets over de veiligheid om fouten te mogen maken in huis. Verlaag de prijs van de waarheid en de leugen verliest zijn functie." }
     ],
     doeDit: [
       "Benoem in plaats van te verhoren: “ik zie viltstift op de muur. We gaan dat samen schoonmaken.”",
@@ -257,7 +257,7 @@ const VRAGEN_2 = [
     bronnen: [
       { boek: "nurtureshock", detail: "Hoofdstuk over de omgekeerde kracht van lof (onderzoek Carol Dweck): eigenschapslof kweekt vermijders, proceslof kweekt doorzetters." },
       { boek: "how-to-talk", detail: "Beschrijvende lof: benoem wat je ziet en vat samen in één woord (“dát noem ik doorzetten”) zodat het kind zichzelf leert prijzen." },
-      { boek: "unconditional-parenting", detail: "Lof als verbale beloning: ook positieve oordelen maken goedkeuring voorwaardelijk en ondermijnen intrinsieke motivatie." }
+      { boek: "unconditional-parenting", detail: "Lof als beloning met woorden: ook positieve oordelen maken goedkeuring afhankelijk van presteren en ondermijnen de motivatie van binnenuit." }
     ],
     gerelateerd: ["belonen-stickers", "huiswerk-oorlog", "kind-angstig"]
   }

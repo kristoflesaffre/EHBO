@@ -10,7 +10,7 @@ const VRAGEN_9 = [
     ["kind", "tiener"],
     ["respect", "toon", "brutaal", "schelden", "grens"],
     "Zet een grens op de toon, maar luister naar de boodschap eronder. Je hoeft geen kwetsende woorden te slikken om nieuwsgierig te blijven.",
-    "Respectloos praten triggert ouders omdat het persoonlijk voelt. Toch zit er onder die toon vaak frustratie, schaamte, machteloosheid of behoefte aan autonomie. Als jij alleen de toon aanvalt, mis je de boodschap.",
+    "Respectloos praten raakt ouders omdat het persoonlijk voelt. Toch zit er onder die toon vaak frustratie, schaamte, machteloosheid of behoefte aan zelfstandigheid. Als jij alleen de toon aanvalt, mis je de boodschap.",
     "Eerst grens, dan inhoud",
     "Zeg kort wat niet kan en nodig daarna uit tot herformuleren. Bij tieners werkt dit beter dan een machtsstrijd over respect als abstract principe.",
     [
@@ -90,7 +90,7 @@ const VRAGEN_9 = [
     "grenzen",
     ["peuter", "kind"],
     ["slaan", "agressie", "waarschuwing", "grens", "veiligheid"],
-    "Stop fysiek en rustig. Waarschuwingen helpen weinig als het brein al overspoeld is; je kind heeft een grens, co-regulatie en later oefening nodig.",
+    "Stop fysiek en rustig. Waarschuwingen helpen weinig als het brein al overspoeld is; je kind heeft een grens, samen kalmeren en later oefening nodig.",
     "Als slaan blijft gebeuren, is de vraag niet: welke dreiging werkt eindelijk? De vraag is: welke vaardigheid mist hier, en op welk moment raakt het brein offline?",
     "Veiligheid vóór les",
     "Tijdens slaan is je taak: voorkomen dat iemand pijn krijgt. Pas later oefen je alternatieven: hulp roepen, afstand nemen, handen op rug, stampen, kussen slaan.",
@@ -106,7 +106,7 @@ const VRAGEN_9 = [
     ],
     ["“Ik houd je handen veilig. Boos mag, slaan niet.”"],
     [
-      ["whole-brain-child", "Een overstroomd benedenbrein heeft eerst regulatie nodig voordat leren mogelijk is."],
+      ["whole-brain-child", "Een overstroomd benedenbrein heeft eerst rust nodig voordat leren mogelijk is."],
       ["good-inside", "Gedrag wijst op ontbrekende vaardigheden; grenzen en verbinding blijven allebei nodig."]
     ],
     ["nood-slaan", "spullen-gooien"]
@@ -187,7 +187,7 @@ const VRAGEN_9 = [
     ],
     ["“Wil je dat ik luister, vragen stel of meedenk?”"],
     [
-      ["self-driven-child", "Autonomie verlaagt stress; ook in gesprekken helpt controle over tempo en diepte."],
+      ["self-driven-child", "Zelfstandigheid verlaagt stress; ook in gesprekken helpt controle over tempo en diepte."],
       ["hold-on-to-your-kids", "Verbinding met tieners vraagt beschikbaarheid zonder verhoor."]
     ],
     ["kind-zegt-niets-over-school", "puber-praat-niet"]
@@ -214,7 +214,7 @@ const VRAGEN_9 = [
     ],
     ["“Wil je dat ik alleen luister of wil je ideeën?”"],
     [
-      ["gottman-eq", "Valideren en luisteren zijn stappen vóór probleemoplossing."],
+      ["gottman-eq", "Erkennen en luisteren zijn stappen vóór probleemoplossing."],
       ["how-to-talk", "Erkenning van gevoelens maakt kinderen ontvankelijker voor samenwerking."]
     ],
     ["verdriet-om-vriendschap", "emoties-verstoppen"]
@@ -295,8 +295,8 @@ const VRAGEN_9 = [
     ],
     ["“Dat is niet mijn punt. Mijn punt is: ik wil weten waar je bent.”"],
     [
-      ["how-to-talk", "Heldere, concrete taal voorkomt escalatie in verwijten en tegenverwijten."],
-      ["self-driven-child", "Tieners reageren beter wanneer autonomie en respect in het gesprek behouden blijven."]
+      ["how-to-talk", "Heldere, concrete taal voorkomt dat het uit de hand loopt in verwijten en tegenverwijten."],
+      ["self-driven-child", "Tieners reageren beter wanneer zelfstandigheid en respect in het gesprek behouden blijven."]
     ],
     ["respectloos-praten", "ik-vraag-teveel-door"]
   ),
@@ -377,7 +377,7 @@ const VRAGEN_9 = [
     ["“De schoenen liggen in de gang. Zet ze nu in de kast.”"],
     [
       ["good-inside", "Het kind blijft goed; gedrag kan begrensd en geoefend worden."],
-      ["unconditional-parenting", "Voorwaardelijke goedkeuring ondermijnt veilige motivatie en morele groei."]
+      ["unconditional-parenting", "Goedkeuring die van presteren afhangt, ondermijnt veilige motivatie en morele groei."]
     ],
     ["schaamte-na-uitbarsting", "respectloos-praten"]
   ),
@@ -431,7 +431,7 @@ const VRAGEN_9 = [
     ["“Ik hoef niet meteen antwoord. Ik wilde het gewoon naast je leggen.”"],
     [
       ["hold-on-to-your-kids", "Verbinding met tieners vraagt warme beschikbaarheid die niet als verhoor voelt."],
-      ["self-driven-child", "Autonomie in tempo en setting verlaagt defensiviteit."]
+      ["self-driven-child", "Zelf tempo en plek kiezen verlaagt het in de verdediging schieten."]
     ],
     ["ik-vraag-teveel-door", "puber-praat-niet"]
   ),
@@ -469,7 +469,7 @@ const VRAGEN_9 = [
     ["kind", "tiener"],
     ["advies", "ruzie", "puber", "autonomie", "luisteren"],
     "Waarschijnlijk komt advies te vroeg of voelt het als controle. Vraag eerst of je kind advies wil, en bied opties in plaats van een voorschrift.",
-    "Advies kan liefde zijn, maar voor een kind in stress klinkt het snel als: jij doet het fout. Zeker tieners hebben behoefte aan eigenaarschap. Te veel advies maakt hen kleiner.",
+    "Advies kan liefde zijn, maar voor een kind in stress klinkt het snel als: jij doet het fout. Zeker tieners hebben behoefte aan eigen verantwoordelijkheid. Te veel advies maakt hen kleiner.",
     "Maak advies optioneel",
     "Luister eerst, vraag toestemming en geef maximaal twee ideeën. Daarna geef je de verantwoordelijkheid terug. Dat vergroot de kans dat je kind er later zelf op terugkomt.",
     [
@@ -484,7 +484,7 @@ const VRAGEN_9 = [
     ],
     ["“Ik heb ideeën, maar alleen als je ze wil horen.”"],
     [
-      ["self-driven-child", "Ouders helpen best als consultant, niet als manager van het leven van het kind."],
+      ["self-driven-child", "Ouders helpen best als adviseur, niet als manager van het leven van het kind."],
       ["how-to-talk", "Samenwerking groeit door keuze en respectvolle taal."]
     ],
     ["luisteren-zonder-oplossen", "huiswerk-politie"]
@@ -512,7 +512,7 @@ const VRAGEN_9 = [
     ["“Het lijkt alsof je teleurgesteld bent. Klopt dat, of is het iets anders?”"],
     [
       ["whole-brain-child", "Name it to tame it: woorden helpen emotionele ervaringen integreren."],
-      ["gottman-eq", "Emotiecoaching gebruikt benoemen als brug naar grenzen en oplossingen."]
+      ["gottman-eq", "Emoties begeleiden gebruikt benoemen als brug naar grenzen en oplossingen."]
     ],
     ["emoties-verstoppen", "huilt-om-kleine-dingen"]
   ),

@@ -25,7 +25,7 @@ const BOEKEN = {
     jaar: 2022,
     kleur: "#c2502a",
     icoon: "🧡",
-    kern: "Elk kind is goed vanbinnen; lastig gedrag is een vaardigheid die ontbreekt, geen slechtheid die eruit moet. Ouders zijn ‘sturdy leaders’: warm én stevig tegelijk.",
+    kern: "Elk kind is goed vanbinnen; lastig gedrag is een vaardigheid die ontbreekt, geen slechtheid die eruit moet. Ouders zijn ‘stevige leiders’: warm én stevig tegelijk.",
     bullets: [
       "“Two things are true”: je kunt een grens houden én de emotie erover volledig erkennen. “Je mag niet slaan” en “je bent zo boos, dat snap ik” sluiten elkaar niet uit.",
       "De meest gulle interpretatie: vraag bij rotgedrag “wat is de best mogelijke verklaring hiervoor?” — dat verandert je reactie, en daarmee het gedrag.",
@@ -45,7 +45,7 @@ const BOEKEN = {
     bullets: [
       "Erken gevoelens vóór alles: “Jij had echt nog willen spelen” werkt beter dan “stel je niet aan” — een erkend gevoel wordt kleiner, een ontkend gevoel groter.",
       "Beschrijf wat je ziet in plaats van te beschuldigen: “Ik zie natte handdoeken op de grond” in plaats van “jij ruimt ook nooit op!”",
-      "Geef keuzes binnen jouw grens (“pyjama eerst boven of beneden aandoen?”) — autonomie haalt de strijd eruit."
+      "Geef keuzes binnen jouw grens (“pyjama eerst boven of beneden aandoen?”) — zelf mogen kiezen haalt de strijd eruit."
     ],
     categorieen: ["communicatie", "emoties"],
     mustRead: true,
@@ -105,7 +105,7 @@ const BOEKEN = {
     kern: "Wetenschapsjournalistiek die heilige huisjes sloopt: veel van wat ouders intuïtief doen (algemeen prijzen, slaap inkorten, liegen bestraffen) werkt averechts.",
     bullets: [
       "Prijs de inzet, niet de slimheid: kinderen die ‘slim’ genoemd worden, gaan uitdagingen mijden uit angst om dom te lijken (onderzoek van Carol Dweck).",
-      "Één uur minder slaap kost een kind cognitief ontwikkelingsjaren: slaaptekort wordt structureel onderschat.",
+      "Één uur minder slaap kost een kind jaren in zijn ontwikkeling: slaaptekort wordt structureel onderschat.",
       "Kinderen liegen méér naarmate er harder gestraft wordt — ze worden er alleen beter in. Veiligheid om de waarheid te zeggen werkt wél."
     ],
     categorieen: ["emoties"],
@@ -117,7 +117,7 @@ const BOEKEN = {
     jaar: 1998,
     kleur: "#8f3e5f",
     icoon: "🎓",
-    kern: "Gottmans onderzoek: kinderen van ‘emotiecoachende’ ouders presteren beter, hebben betere vriendschappen en zijn fysiek gezonder. Emotiecoaching is leerbaar in vijf stappen.",
+    kern: "Gottmans onderzoek: kinderen van ouders die ‘emoties begeleiden’ presteren beter, hebben betere vriendschappen en zijn fysiek gezonder. Emoties begeleiden kun je leren in vijf stappen.",
     bullets: [
       "De vijf stappen: merk de emotie op → zie ze als kans tot verbinding → luister en valideer → help het gevoel benoemen → stel grenzen en zoek samen oplossingen.",
       "Emoties wegwuiven (“het is niks, niet huilen”) leert kinderen dat hun binnenwereld fout is — gevoelens verdwijnen er niet door, ze gaan ondergronds.",
@@ -299,9 +299,9 @@ const BOEKEN = {
     icoon: "🌪️",
     kern: "Spirited kinderen zijn intenser, gevoeliger, hardnekkiger en energieker dan gemiddeld. Ze zijn niet moeilijk — ze hebben een ander temperament dat om een andere aanpak vraagt.",
     bullets: [
-      "Hernoem 'moeilijk' naar 'spirited': woorden sturen verwachtingen. Een kind dat “koppig” is, is ook “volhardend” — hetzelfde eigenschap, ander frame, andere relatie.",
-      "Spirited kinderen overprikkelen sneller. Structurele herstelmomenten inbouwen is geen verwennerij, maar noodzakelijke ondersteuning van zelfregulatie.",
-      "Ken je kind's triggers en energiebronnen: sommigen laden op van stilte, anderen van beweging. Pas routines aan in plaats van het kind te forceren tot de gemiddelde norm."
+      "Hernoem 'moeilijk' naar 'pittig': woorden sturen verwachtingen. Een kind dat “koppig” is, is ook “volhardend” — dezelfde eigenschap, een ander etiket, een andere relatie.",
+      "Pittige kinderen overprikkelen sneller. Vaste herstelmomenten inbouwen is geen verwennerij, maar nodige steun bij het zichzelf kalmeren.",
+      "Ken de triggers en energiebronnen van je kind: sommigen laden op van stilte, anderen van beweging. Pas routines aan in plaats van het kind te forceren tot de gemiddelde norm."
     ],
     categorieen: ["emoties", "grenzen"],
     amazonRating: { score: 4.8, count: 4029, bijgewerkt: "2026-06-13" }
@@ -327,10 +327,10 @@ const BOEKEN = {
     jaar: 1998,
     kleur: "#6b3a2a",
     icoon: "🌋",
-    kern: "Explosief gedrag komt niet door onwil maar door een vaardigheidsdeficit: deze kinderen missen de flexibiliteit of frustratietolerantie die de situatie vraagt. Collaborative Problem Solving lost het structureel op.",
+    kern: "Explosief gedrag komt niet door onwil maar door een tekort aan vaardigheden: deze kinderen missen de flexibiliteit of het tegen een teleurstelling kunnen dat de situatie vraagt. De aanpak ‘samen problemen oplossen’ lost het structureel op.",
     bullets: [
       "”Kids do well if they can” — als ze niet goed doen, ontbreekt een vaardigheid, geen motivatie. Zoek de ontbrekende vaardigheid, niet het motivatieprobleem.",
-      "Collaborative Problem Solving (Plan B): bespreek het probleem samen als het rustig is, zoek een oplossing die werkt voor beiden — nooit in het moment van crisis zelf.",
+      "Samen problemen oplossen (Plan B): bespreek het probleem samen als het rustig is, zoek een oplossing die werkt voor beiden — nooit in het moment van crisis zelf.",
       "Explosies zijn voorspelbaar: elk explosief kind heeft patronen en triggers. Breng ze in kaart en gebruik Plan B vóór de volgende crisis, niet erna."
     ],
     categorieen: ["emoties", "grenzen"],

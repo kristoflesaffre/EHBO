@@ -28,7 +28,7 @@ const VRAGEN_5 = [
     zegDit: null,
     bronnen: [
       { boek: "nurtureshock", detail: "Slaap heeft grote invloed op leren, stemming en zelfbeheersing; kleine tekorten stapelen bij kinderen snel op." },
-      { boek: "science-of-parenting", detail: "Jonge baby's hebben externe regulatie en prikkelreductie nodig omdat het stresssysteem nog rijpt." },
+      { boek: "science-of-parenting", detail: "Jonge baby's hebben hulp van buitenaf nodig om te kalmeren, en minder prikkels, omdat het stresssysteem nog rijpt." },
       { boek: "power-of-showing-up", detail: "Voorspelbare troost en nabijheid bouwen veiligheid rond rustmomenten." }
     ],
     gerelateerd: ["baby-wordt-wakker", "slaap-hoe-belangrijk", "baby-laten-huilen"]
@@ -42,8 +42,8 @@ const VRAGEN_5 = [
     tags: ["nachtvoeding", "voeden", "borstvoeding", "fles", "doorslapen", "afbouwen"],
     kort: "Niet op wilskracht, maar op rijpheid. Als groei en gezondheid goed zitten, kun je zacht afbouwen met voorspelbare troost, kleinere stappen en een ouder die beschikbaar blijft.",
     blokken: [
-      { tekst: "Nachtvoeding is bij jonge baby's geen slechte gewoonte, maar voeding, nabijheid en regulatie in één. Afbouwen kan soms, maar het werkt het best als je niet de boodschap geeft: vanaf nu sta je er alleen voor. <strong>Het doel is minder voeding, niet minder veiligheid.</strong>" },
-      { kop: "Zacht afbouwen", tekst: "Siegel & Bryson leggen uit dat kinderen veiligheid ontwikkelen door safe, seen en soothed te blijven. Dat betekent: voorspelbaar reageren, eventueel korter voeden, een andere ouder laten troosten of de tijd tussen voedingen langzaam rekken. Bij twijfel over groei, reflux of gezondheid hoort eerst medisch advies." }
+      { tekst: "Nachtvoeding is bij jonge baby's geen slechte gewoonte, maar voeding, nabijheid en kalmte in één. Afbouwen kan soms, maar het werkt het best als je niet de boodschap geeft: vanaf nu sta je er alleen voor. <strong>Het doel is minder voeding, niet minder veiligheid.</strong>" },
+      { kop: "Zacht afbouwen", tekst: "Siegel & Bryson leggen uit dat kinderen veiligheid ontwikkelen door veilig, gezien en getroost te blijven. Dat betekent: voorspelbaar reageren, eventueel korter voeden, een andere ouder laten troosten of de tijd tussen voedingen langzaam rekken. Bij twijfel over groei, reflux of gezondheid hoort eerst medisch advies." }
     ],
     doeDit: [
       "Check eerst groei, gezondheid en leeftijd met een professional als je twijfelt.",
@@ -58,7 +58,7 @@ const VRAGEN_5 = [
     zegDit: null,
     bronnen: [
       { boek: "power-of-showing-up", detail: "Veiligheid blijft de basis bij elke overgang; soothed worden is geen extraatje maar ontwikkeling." },
-      { boek: "science-of-parenting", detail: "Nabijheid en troost helpen het jonge stresssysteem reguleren, ook wanneer praktische routines veranderen." },
+      { boek: "science-of-parenting", detail: "Nabijheid en troost helpen het jonge stresssysteem kalmeren, ook wanneer praktische routines veranderen." },
       { boek: "philippa-perry", detail: "Babybehoeften serieus nemen voorkomt dat ouders normale afhankelijkheid als manipulatie lezen." }
     ],
     gerelateerd: ["baby-wordt-wakker", "baby-laten-huilen", "slaaptraining-zonder-uithuilen"]
@@ -73,7 +73,7 @@ const VRAGEN_5 = [
     kort: "Sommige peuters stoppen vroeg, anderen hebben rust nog hard nodig. Maak van slapen geen gevecht: bewaak een vast rustmoment en laat het lijf tonen of slaap nog nodig is.",
     blokken: [
       { tekst: "Het middagdutje verdwijnt meestal niet in één rechte lijn. Dagen zonder slaap kunnen prima gaan, tot je om 17u een ingestorte peuter hebt. <strong>De vraag is niet alleen: slaapt hij nog, maar: kan zijn lijf de dag dragen?</strong>" },
-      { kop: "Rust is breinregulatie", tekst: "NurtureShock laat zien dat slaaptekort gedrag en leren stevig raakt. Markham zou de strijd eruit halen: een rustmoment is de grens, slapen is wat het lijf eventueel doet. Zo wordt het geen machtsstrijd over ogen dichtdoen." }
+      { kop: "Rust kalmeert het brein", tekst: "NurtureShock laat zien dat slaaptekort gedrag en leren stevig raakt. Markham zou de strijd eruit halen: een rustmoment is de grens, slapen is wat het lijf eventueel doet. Zo wordt het geen machtsstrijd over ogen dichtdoen." }
     ],
     doeDit: [
       "Hou een dagelijks rustmoment met boekjes, knuffel of rustige audio.",
@@ -90,9 +90,9 @@ const VRAGEN_5 = [
       "“Vandaag geen dutje, dus vanavond vroeger naar bed.”"
     ],
     bronnen: [
-      { boek: "nurtureshock", detail: "Zelfs beperkte slaaptekorten beïnvloeden gedrag, leren en emotieregulatie bij kinderen." },
-      { boek: "peaceful-parent", detail: "Routines en kalme grenzen helpen zonder machtsstrijd; ouderlijke regulatie komt eerst." },
-      { boek: "whole-brain-child", detail: "Jonge kinderen hebben hulp nodig bij overgang, impulscontrole en lichaamsbewustzijn." }
+      { boek: "nurtureshock", detail: "Zelfs beperkte slaaptekorten beïnvloeden gedrag, leren en het kalmeren van emoties bij kinderen." },
+      { boek: "peaceful-parent", detail: "Routines en kalme grenzen helpen zonder machtsstrijd; de ouder die zelf kalm blijft komt eerst." },
+      { boek: "whole-brain-child", detail: "Jonge kinderen hebben hulp nodig bij overgangen, zichzelf inhouden en lichaamsbewustzijn." }
     ],
     gerelateerd: ["slaap-hoe-belangrijk", "peuter-bedtijd-strijd", "driftbui-reageren"]
   },
@@ -106,7 +106,7 @@ const VRAGEN_5 = [
     kort: "Ja. Je kunt slaapgewoontes veranderen met aanwezigheid, herhaling en geleidelijke hulpvermindering. Je kind hoeft niet alleen te zijn om iets nieuws te leren.",
     blokken: [
       { tekst: "Slaaptraining wordt vaak voorgesteld als deur dicht en volhouden. De boeken bieden een zachtere logica: kinderen leren nieuwe patronen beter wanneer hun alarmsysteem niet maximaal aan staat. <strong>Je kunt de gewoonte veranderen zonder de relatie uit te zetten.</strong>" },
-      { kop: "Aanwezig afbouwen", tekst: "Sunderland en Siegel & Bryson leggen allebei nadruk op co-regulatie. Praktisch: eerst naast het bed, dan iets verder weg, dan kort terugkomen. Je kind mag protesteren tegen verandering; het verschil is dat protest niet alleen gedragen hoeft te worden." }
+      { kop: "Aanwezig afbouwen", tekst: "Sunderland en Siegel & Bryson leggen allebei nadruk op samen kalmeren (co-regulatie). Praktisch: eerst naast het bed, dan iets verder weg, dan kort terugkomen. Je kind mag protesteren tegen verandering; het verschil is dat protest niet alleen gedragen hoeft te worden." }
     ],
     doeDit: [
       "Kies één kleine verandering tegelijk: inslapen, nachtvoeding of terugleggen.",
@@ -189,7 +189,7 @@ const VRAGEN_5 = [
       "“Eerst eten en zakken. Praten kan straks.”"
     ],
     bronnen: [
-      { boek: "whole-brain-child", detail: "Bij overbelasting neemt het benedenbrein over; verbinden en reguleren gaan vóór redeneren." },
+      { boek: "whole-brain-child", detail: "Bij overbelasting neemt het benedenbrein over; verbinden en kalmeren gaan vóór redeneren." },
       { boek: "peaceful-parent", detail: "Verbinding en lichaamsrust voorkomen dat correctie bovenop overprikkeling komt." },
       { boek: "good-inside", detail: "Gedrag krijgt een gulle interpretatie: het kind is goed, de emmer is vol." }
     ],
@@ -205,7 +205,7 @@ const VRAGEN_5 = [
     kort: "Stop de schade direct en veilig, maar maak de les herstelgericht. Boosheid mag; spullen stukmaken niet. Achteraf zoek je samen een plan voor de volgende storm.",
     blokken: [
       { tekst: "Dingen kapotmaken vraagt een duidelijke grens. Tegelijk leert schaamte alleen zelden een alternatief. Je kind moet ervaren: <strong>mijn boosheid kan groot zijn, mijn ouder houdt de wereld veilig, en schade wordt hersteld.</strong>" },
-      { kop: "Van explosie naar herstel", tekst: "Gottman koppelt emotiecoaching aan grenzen: gevoel erkennen, gedrag begrenzen, probleem oplossen. Faber & Mazlish zouden het gevolg logisch maken: wat stuk is, wordt gerepareerd, vervangen of mee opgelost. Geen wraak, wel verantwoordelijkheid." }
+      { kop: "Van explosie naar herstel", tekst: "Gottman koppelt het begeleiden van emoties aan grenzen: gevoel erkennen, gedrag begrenzen, probleem oplossen. Faber & Mazlish zouden het gevolg logisch maken: wat stuk is, wordt gerepareerd, vervangen of mee opgelost. Geen wraak, wel verantwoordelijkheid." }
     ],
     doeDit: [
       "Haal breekbare spullen weg of breng je kind naar een veiligere plek.",
@@ -257,21 +257,21 @@ const VRAGEN_5 = [
     bronnen: [
       { boek: "self-driven-child", detail: "Angst zakt door gevoel van controle, kleine stappen en een niet-angstige ouder." },
       { boek: "whole-brain-child", detail: "Angst benoemen en het verhaal ordenen helpt het alarmcircuit kalmeren." },
-      { boek: "gottman-eq", detail: "Eerst valideren, dan grenzen en oplossingen; gevoelens overslaan sluit het kind af." }
+      { boek: "gottman-eq", detail: "Eerst erkennen, dan grenzen en oplossingen; gevoelens overslaan sluit het kind af." }
     ],
     gerelateerd: ["kind-angstig", "faalangst-perfectionisme", "huilen-opvang-afscheid"]
   },
   {
     id: "kind-snel-gefrustreerd",
-    vraag: "Mijn kind raakt razendsnel gefrustreerd. Hoe bouw ik tolerantie op?",
+    vraag: "Mijn kind raakt razendsnel gefrustreerd. Hoe help ik het beter omgaan met frustratie?",
     thema: "emoties",
     leeftijd: ["peuter", "kind"],
     uitgelicht: false,
     tags: ["frustratie", "ongeduldig", "boos", "puzzel", "leren", "doorzetten"],
-    kort: "Frustratietolerantie groeit in kleine porties. Maak het niet te makkelijk en ook niet te groot: erken het rotgevoel, bied net genoeg steun en vier herstel.",
+    kort: "Beter tegen frustratie kunnen groeit in kleine porties. Maak het niet te makkelijk en ook niet te groot: erken het rotgevoel, bied net genoeg steun en vier herstel.",
     blokken: [
       { tekst: "Frustratie is de sportschool van zelfbeheersing. Te veel is overweldigend, te weinig bouwt niets. Een kind dat snel ontploft, heeft geen preek nodig maar oefenkansen op de juiste grootte. <strong>Net moeilijk genoeg is de zone waar groei woont.</strong>" },
-      { kop: "Steunen zonder overnemen", tekst: "Siegel & Bryson zien zelfbeheersing als bovenbreinvaardigheid in ontwikkeling. Markham zou naast het kind gaan staan: “dit is lastig”, adem samen, maak één stap zichtbaar. NurtureShock herinnert eraan dat procesfeedback beter werkt dan slimheidslof." }
+      { kop: "Steunen zonder overnemen", tekst: "Siegel & Bryson zien zelfbeheersing als een vaardigheid van het bovenbrein die nog in ontwikkeling is. Markham zou naast het kind gaan staan: “dit is lastig”, adem samen, maak één stap zichtbaar. NurtureShock herinnert eraan dat complimenten over de inzet beter werken dan complimenten over slim zijn." }
     ],
     doeDit: [
       "Splits taken in mini-stappen.",
@@ -288,8 +288,8 @@ const VRAGEN_5 = [
       "“Wil je een adem-pauze of een hint?”"
     ],
     bronnen: [
-      { boek: "whole-brain-child", detail: "Frustratietolerantie vraagt oefening van bovenbreinfuncties zoals remmen, plannen en reflecteren." },
-      { boek: "peaceful-parent", detail: "De ouder co-reguleert en coacht zonder controle over te nemen." },
+      { boek: "whole-brain-child", detail: "Beter tegen frustratie kunnen vraagt oefening van bovenbreinfuncties zoals remmen, plannen en nadenken." },
+      { boek: "peaceful-parent", detail: "De ouder kalmeert mee en begeleidt zonder controle over te nemen." },
       { boek: "nurtureshock", detail: "Procesfeedback op poging en strategie ondersteunt doorzettingsvermogen." }
     ],
     gerelateerd: ["opgeven-snel", "niet-tegen-verlies", "goed-prijzen"]
@@ -322,7 +322,7 @@ const VRAGEN_5 = [
     ],
     bronnen: [
       { boek: "self-driven-child", detail: "Een niet-angstige ouder helpt tieners stress dragen zonder controle over te nemen." },
-      { boek: "hold-on-to-your-kids", detail: "Tieners hebben autonomie én blijvende volwassenhechting nodig als kompas." },
+      { boek: "hold-on-to-your-kids", detail: "Tieners hebben zelfstandigheid én een blijvende band met volwassenen nodig als kompas." },
       { boek: "nurtureshock", detail: "Slaaptekort beïnvloedt stemming en prestaties bij tieners sterk." }
     ],
     gerelateerd: ["tiener-trekt-terug", "slaap-hoe-belangrijk", "sociale-media-onzeker"]
@@ -402,8 +402,8 @@ const VRAGEN_5 = [
     tags: ["eten", "proeven", "groenten", "dwingen", "maaltijd", "kieskeurig"],
     kort: "Dwingen maakt eten beladen. Jij bepaalt wat en wanneer er eten is; je kind bepaalt hoeveel het eet. Nieuw eten vraagt herhaling, rust en voorbeeld, geen strijd aan tafel.",
     blokken: [
-      { tekst: "Eten raakt snel aan controle: ouders willen gezondheid, kinderen willen autonomie over hun lijf. Dwang wint soms één hap en verliest vaak de sfeer. <strong>Een kind leert beter eten aan een veilige tafel dan in een machtsspel.</strong>" },
-      { kop: "Autonomie aan tafel", tekst: "Stixrud & Johnson benadrukken hoe belangrijk controle over het eigen leven is. Kohn zou waarschuwen voor belonen en straffen met dessert. Bied gevarieerd aan, eet zelf mee, laat wennen via kijken, ruiken, likken, proeven en weer uitspugen zonder theater." }
+      { tekst: "Eten raakt snel aan controle: ouders willen gezondheid, kinderen willen zelf over hun lijf beslissen. Dwang wint soms één hap en verliest vaak de sfeer. <strong>Een kind leert beter eten aan een veilige tafel dan in een machtsspel.</strong>" },
+      { kop: "Eigen keuze aan tafel", tekst: "Stixrud & Johnson benadrukken hoe belangrijk controle over het eigen leven is. Kohn zou waarschuwen voor belonen en straffen met dessert. Bied gevarieerd aan, eet zelf mee, laat wennen via kijken, ruiken, likken, proeven en weer uitspugen zonder theater." }
     ],
     doeDit: [
       "Zet steeds iets vertrouwds naast iets nieuws.",
@@ -420,8 +420,8 @@ const VRAGEN_5 = [
       "“Jij kiest wat je van je bord eet; ik zorg dat er eten is.”"
     ],
     bronnen: [
-      { boek: "self-driven-child", detail: "Autonomie over het eigen lichaam en keuzes verlaagt strijd en verhoogt interne motivatie." },
-      { boek: "unconditional-parenting", detail: "Belonen en straffen rond eten maken gezond gedrag voorwaardelijk en extern gestuurd." },
+      { boek: "self-driven-child", detail: "Zelf beslissen over je eigen lichaam en keuzes verlaagt strijd en verhoogt de motivatie van binnenuit." },
+      { boek: "unconditional-parenting", detail: "Belonen en straffen rond eten maken gezond gedrag afhankelijk van een beloning en van buitenaf gestuurd." },
       { boek: "philippa-perry", detail: "Ouders onderzoeken eigen angst en controle rond eten zodat die niet op het kind terechtkomt." }
     ],
     gerelateerd: ["belonen-stickers", "zeuren-onderhandelen", "maaltijdstrijd"]
@@ -436,7 +436,7 @@ const VRAGEN_5 = [
     kort: "Liever niet voor gewone gezinsbijdragen. Zakgeld is oefengeld; klusjes zijn bijdragen aan het gezin. Extra betaalde taken kunnen, maar basiszorg hoort bij samenleven.",
     blokken: [
       { tekst: "Betalen voor elk klusje lijkt praktisch, maar het verandert bijdragen in transacties. Dan wordt de vraag: wat krijg ik ervoor? <strong>Een gezin draait beter op erbij horen dan op loonstrookjes voor normaal meedoen.</strong>" },
-      { kop: "Motivatie van binnenuit", tekst: "Kohn beschrijft hoe beloningen intrinsieke motivatie kunnen ondermijnen. Stixrud & Johnson onderscheiden autonomie en competentie: geef kinderen echte verantwoordelijkheid, leer geld beheren via vast zakgeld, en houd extra betaalde taken uitzonderlijk en helder." }
+      { kop: "Motivatie van binnenuit", tekst: "Kohn beschrijft hoe beloningen de motivatie van binnenuit kunnen ondermijnen. Stixrud & Johnson maken onderscheid tussen zelfstandigheid en het gevoel iets te kunnen: geef kinderen echte verantwoordelijkheid, leer geld beheren via vast zakgeld, en houd extra betaalde taken uitzonderlijk en helder." }
     ],
     doeDit: [
       "Geef zakgeld als oefengeld op een vaste dag.",
@@ -454,7 +454,7 @@ const VRAGEN_5 = [
     ],
     bronnen: [
       { boek: "unconditional-parenting", detail: "Beloningen verschuiven aandacht van waarde en bijdrage naar opbrengst." },
-      { boek: "self-driven-child", detail: "Competentie en eigenaarschap groeien door echte verantwoordelijkheid, niet door voortdurende externe controle." },
+      { boek: "self-driven-child", detail: "Het gevoel iets te kunnen en eigen verantwoordelijkheid voelen groeien door echte verantwoordelijkheid, niet door voortdurende controle van buitenaf." },
       { boek: "how-to-talk", detail: "Kinderen werken beter mee wanneer taken concreet, respectvol en probleemgericht worden benoemd." }
     ],
     gerelateerd: ["belonen-stickers", "klusjes-in-gezin", "opruimen-strijd"]
@@ -535,7 +535,7 @@ const VRAGEN_5 = [
     kort: "Kies korte, herhaalde gesprekken in plaats van één grote preek. Wees kalm, concreet en nieuwsgierig. Je tiener moet voelen: hier kan ik met de waarheid terecht.",
     blokken: [
       { tekst: "Seks, alcohol, drugs, grenzen, online risico's: ouders wachten vaak op het perfecte moment en maken er dan een lezing van. Tieners haken af bij lezingen. <strong>De veiligste gesprekken zijn meestal kort, gewoon en herhaald.</strong>" },
-      { kop: "Kanaal open houden", tekst: "Gottman en Faber & Mazlish wijzen allebei naar luisteren vóór oplossen. Stixrud & Johnson voegen toe: tieners hebben autonomie nodig. Geef dus informatie en waarden, stel nieuwsgierige vragen, en maak duidelijk dat eerlijkheid niet automatisch paniek of straf betekent." }
+      { kop: "Kanaal open houden", tekst: "Gottman en Faber & Mazlish wijzen allebei naar luisteren vóór oplossen. Stixrud & Johnson voegen toe: tieners hebben zelfstandigheid nodig. Geef dus informatie en waarden, stel nieuwsgierige vragen, en maak duidelijk dat eerlijkheid niet automatisch paniek of straf betekent." }
     ],
     doeDit: [
       "Gebruik alledaagse haakjes: serie, nieuws, verhaal van school.",
@@ -552,8 +552,8 @@ const VRAGEN_5 = [
       "“Als je ooit in de problemen zit, bel je mij eerst. De rest lossen we later op.”"
     ],
     bronnen: [
-      { boek: "gottman-eq", detail: "Luisteren en valideren houden het kanaal open voor lastige gevoelens en keuzes." },
-      { boek: "self-driven-child", detail: "Tieners nemen betere beslissingen wanneer autonomie en een kalme adviseur samengaan." },
+      { boek: "gottman-eq", detail: "Luisteren en erkennen houden de lijn open voor lastige gevoelens en keuzes." },
+      { boek: "self-driven-child", detail: "Tieners nemen betere beslissingen wanneer zelfstandigheid en een kalme adviseur samengaan." },
       { boek: "how-to-talk", detail: "Vragen, erkenning en korte informatie werken beter dan preken." }
     ],
     gerelateerd: ["kind-praat-niet", "tiener-trekt-terug", "kind-liegt"]
@@ -568,7 +568,7 @@ const VRAGEN_5 = [
     kort: "Privacy groeit mee met vertrouwen en leeftijd. Controleer niet uit gewone nieuwsgierigheid, maar veiligheid blijft jouw taak. Maak heldere afspraken in plaats van stiekem speuren.",
     blokken: [
       { tekst: "Privacy is geen bedreiging voor de band; het is onderdeel van groeien. Tegelijk is totale digitale vrijheid voor jonge tieners niet hetzelfde als vertrouwen. <strong>Het verschil zit in transparantie: afspraken zijn veilig, stiekeme controle beschadigt.</strong>" },
-      { kop: "Autonomie met randvoorwaarden", tekst: "Stixrud & Johnson benadrukken zelfsturing; Haidt waarschuwt dat online omgevingen te krachtig zijn om kinderen volledig alleen te laten. Dus: klop op kamerdeuren, lees geen dagboek, maar spreek wel schermregels, veiligheidschecks en noodsignalen af." }
+      { kop: "Zelfstandigheid met grenzen", tekst: "Stixrud & Johnson benadrukken zelf sturen; Haidt waarschuwt dat online omgevingen te krachtig zijn om kinderen volledig alleen te laten. Dus: klop op kamerdeuren, lees geen dagboek, maar spreek wel schermregels, veiligheidschecks en noodsignalen af." }
     ],
     doeDit: [
       "Klop aan en respecteer lichamelijke privacy.",
@@ -585,7 +585,7 @@ const VRAGEN_5 = [
       "“Ik ga niet zomaar speuren. Als ik me zorgen maak, zeg ik dat eerst.”"
     ],
     bronnen: [
-      { boek: "self-driven-child", detail: "Autonomie en vertrouwen ondersteunen zelfsturing, zeker bij ouder wordende kinderen." },
+      { boek: "self-driven-child", detail: "Zelfstandigheid en vertrouwen ondersteunen het zelf sturen, zeker bij ouder wordende kinderen." },
       { boek: "anxious-generation", detail: "Digitale vrijheid vraagt sterkere bescherming dan offline privacy door permanente peer- en algoritmedruk." },
       { boek: "hold-on-to-your-kids", detail: "Vertrouwen en verbinding houden ouders als kompas aanwezig zonder alles te controleren." }
     ],

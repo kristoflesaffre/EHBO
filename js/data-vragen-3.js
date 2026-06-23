@@ -12,9 +12,9 @@ const VRAGEN_3 = [
     tags: ["huiswerk", "school", "studeren", "motivatie", "cijfers", "zeuren", "uitstellen"],
     kort: "Stop met huiswerkpolitie spelen: hoe meer jij het probleem draagt, hoe minder je kind het draagt. Bied structuur en hulp aan, maar geef het eigenaarschap terug — schoolwerk is van het kind.",
     blokken: [
-      { tekst: "Stixrud & Johnson zijn er radicaal over: <strong>het is niet jouw huiswerk</strong>. Zolang jij duwt, controleert en sleurt, hoeft je kind maar één ding te doen: terugduwen. De dagelijkse oorlog gaat dan allang niet meer over rekenen, maar over autonomie — en autonomiegevechten verliest een ouder altijd, want het kind heeft het laatste woord over zijn eigen inzet." },
+      { tekst: "Stixrud & Johnson zijn er heel stellig over: <strong>het is niet jouw huiswerk</strong>. Zolang jij duwt, controleert en sleurt, hoeft je kind maar één ding te doen: terugduwen. De dagelijkse oorlog gaat dan allang niet meer over rekenen, maar over zelfstandigheid — en een gevecht over zelfstandigheid verliest een ouder altijd, want het kind heeft het laatste woord over zijn eigen inzet." },
       { kop: "De ouder als consultant", tekst: "Het alternatief is de consultanthouding: “ik help je graag, en jij bent de baas over je werk.” Concreet: bied een rustige werkplek, een vast ritueel en je beschikbaarheid aan — en laat de uitvoering (en de gevolgen op school) bij je kind. Een onvoldoende door eigen keuze is op de lange termijn leerzamer dan een voldoende door jouw gesleur. Het brein dat zelf mag sturen, ontwikkelt precies de motivatie waar je op zat te wachten." },
-      { kop: "Maar mijn kind doet dan níets!", tekst: "Klopt, vaak eerst wel — er is een ontwenningsperiode als de politie zich terugtrekt. Belangrijk: terugtrekken is niet onverschillig worden. Je blijft interesse tonen in wat je kind leert (niet in wat het scoort), je helpt als erom gevraagd wordt, en je beschermt de randvoorwaarden: slaap, beweging en schermvrije studeertijd. NurtureShock herinnert eraan dat een uitgeslapen kind in één uur doet waar een moe kind drie zeur-uren voor nodig heeft." }
+      { kop: "Maar mijn kind doet dan níets!", tekst: "Klopt, vaak eerst wel — er is een ontwenningsperiode als de politie zich terugtrekt. Belangrijk: terugtrekken is niet onverschillig worden. Je blijft interesse tonen in wat je kind leert (niet in wat het scoort), je helpt als erom gevraagd wordt, en je beschermt de basisvoorwaarden: slaap, beweging en schermvrije studeertijd. NurtureShock herinnert eraan dat een uitgeslapen kind in één uur doet waar een moe kind drie zeur-uren voor nodig heeft." }
     ],
     doeDit: [
       "Zeg het letterlijk: “jouw school is van jou. Ik help als je me nodig hebt.”",
@@ -74,7 +74,7 @@ const VRAGEN_3 = [
     bronnen: [
       { boek: "anxious-generation", detail: "De vier normen (smartphone ±14, sociale media 16, telefoonvrije school, meer vrij spel) en de data achter de mentale-gezondheidsknik van 2010–2015." },
       { boek: "hold-on-to-your-kids", detail: "Schermen en peers verdringen de ouder-kindhechting; bescherm de gezinsrituelen als ankerpunten." },
-      { boek: "self-driven-child", detail: "Slaap, autonomie en een gezond stresssysteem als randvoorwaarden — de telefoon in de slaapkamer ondermijnt alle drie." }
+      { boek: "self-driven-child", detail: "Slaap, zelfstandigheid en een gezond stresssysteem als basisvoorwaarden — de telefoon in de slaapkamer ondermijnt alle drie." }
     ],
     gerelateerd: ["schermtijd-hoeveel", "slaap-hoe-belangrijk", "tiener-trekt-terug"]
   },
@@ -107,7 +107,7 @@ const VRAGEN_3 = [
     zegDit: null,
     bronnen: [
       { boek: "anxious-generation", detail: "De opportuniteitskost van schermen: verdrongen slaap, spel en sociaal contact wegen zwaarder dan de minuten zelf; feeds en autoplay als ontworpen verslaving." },
-      { boek: "science-of-parenting", detail: "Zelfregulatie zit in een brein-in-aanbouw: jonge kinderen hebben externe structuur nodig waar interne remmen nog ontbreken." },
+      { boek: "science-of-parenting", detail: "Zichzelf kalmeren zit in een brein-in-aanbouw: jonge kinderen hebben houvast van buitenaf nodig zolang een eigen rem nog ontbreekt." },
       { boek: "hold-on-to-your-kids", detail: "Schermvrije gezinsrituelen (tafel, bed, samen) beschermen de hechting die alle opvoeding draagt." }
     ],
     gerelateerd: ["smartphone-wanneer", "slaap-hoe-belangrijk", "band-versterken"]
@@ -158,7 +158,7 @@ const VRAGEN_3 = [
     leeftijd: ["tiener"],
     uitgelicht: false,
     tags: ["tiener", "puber", "vrienden", "afstandelijk", "kamer", "praat niet meer", "loslaten"],
-    kort: "Meer autonomie willen is gezond; jou volledig inruilen voor leeftijdsgenoten is dat niet. Blijf zonder druk beschikbaar, bescherm een paar vaste gezinsmomenten, en wees de kalme volwassene bij wie alles gezegd mag worden.",
+    kort: "Meer zelfstandigheid willen is gezond; jou volledig inruilen voor leeftijdsgenoten is dat niet. Blijf zonder druk beschikbaar, bescherm een paar vaste gezinsmomenten, en wees de kalme volwassene bij wie alles gezegd mag worden.",
     blokken: [
       { tekst: "Eerst het gezonde deel: een tiener die zijn eigen smaak, mening en privéruimte opeist, doet exact wat zijn ontwikkelingsfase vraagt. Maar Neufeld & Maté maken een onderscheid dat elke ouder zou moeten kennen: <strong>onafhankelijkheid is iets anders dan heroriëntatie</strong>. Een tiener mag minder bij je zíjn; het wordt zorgelijk als leeftijdsgenoten je vervangen als kompas — als hun oordeel het enige is dat telt en jij enkel nog hotelfunctie hebt." },
       { kop: "Waarom peers geen veilige haven zijn", tekst: "Leeftijdsgenoten kunnen elkaar niet onvoorwaardelijk dragen — ze zijn zelf onaf, en hun acceptatie is per definitie voorwaardelijk (vandaag in, morgen uit). Een kind dat zijn emotionele veiligheid bij peers legt, wordt voorzichtig, conformistisch en kwetsbaar voor de groep. Haidt laat zien hoe sociale media dit mechanisme op steroïden zet: de groep oordeelt nu 24/7, met telbare likes." },
@@ -236,7 +236,7 @@ const VRAGEN_3 = [
     kort: "Nee — afgedwongen delen leert vooral dat de hardste roeper wint en dat jouw spel elk moment kan worden afgepakt. Leer in de plaats beurten nemen: “als jij klaar bent, is Noor.” Dat bouwt échte vrijgevigheid.",
     blokken: [
       { tekst: "Het klassieke tafereel: jouw kind speelt met een truck, een ander kind wil hem, en alle volwassenen kijken naar jou. De reflex — “toe, deel nu even” — leert je kind twee rare lessen: <strong>wie het luidst eist, krijgt</strong>, en: wat ik aan het doen ben, is altijd minder belangrijk dan andermans ongeduld. Volwassenen geven hun telefoon ook niet af omdat een collega er zin in heeft." },
-      { kop: "Beurten in plaats van breken", tekst: "Het alternatief is beurtdenken met zelfgekozen einde: “Lou speelt ermee. Als hij klaar is, is het jouw beurt.” Het wachtende kind oefent frustratietolerantie (een topvaardigheid), en het spelende kind ontdekt iets verrassends: wie níet onder druk staat, geeft vaak sneller en guller af. Echte vrijgevigheid groeit uit veiligheid, nooit uit dwang — precies het punt dat Kohn over alle afgedwongen ‘deugden’ maakt." },
+      { kop: "Beurten in plaats van breken", tekst: "Het alternatief is beurtdenken met zelfgekozen einde: “Lou speelt ermee. Als hij klaar is, is het jouw beurt.” Het wachtende kind oefent tegen een teleurstelling kunnen (een topvaardigheid), en het spelende kind ontdekt iets verrassends: wie níet onder druk staat, geeft vaak sneller en guller af. Echte vrijgevigheid groeit uit veiligheid, nooit uit dwang — precies het punt dat Kohn over alle afgedwongen ‘deugden’ maakt." },
       { kop: "En de wachtende peuter dan?", tekst: "Die heeft het zwaar, en dat mag: “wachten is moeilijk, hè. Jij wil hem nú.” Erken het gevoel (Faber & Mazlish: een erkend gevoel krimpt), blijf in de buurt en help desnoods iets anders vinden. Speelafspraken thuis: laat je kind vooraf de onaantastbare schatten wegleggen — wat in de kamer blijft, daar wordt om de beurt mee gespeeld. Zo bepaal je het kader, en oefenen zij de rest." }
     ],
     doeDit: [
@@ -257,7 +257,7 @@ const VRAGEN_3 = [
       "“Jij mag eerst rustig klaar spelen. Zeg jij het als Noor mag?”"
     ],
     bronnen: [
-      { boek: "good-inside", detail: "Eigendom, beurten en frustratietolerantie: kinderen leren geven vanuit veiligheid, niet vanuit dwang." },
+      { boek: "good-inside", detail: "Eigendom, beurten en tegen een teleurstelling kunnen: kinderen leren geven vanuit veiligheid, niet vanuit dwang." },
       { boek: "unconditional-parenting", detail: "Afgedwongen deugden zijn gehoorzaamheid in vermomming; werk mét het kind aan echte motieven in plaats van gedrag af te dwingen." },
       { boek: "how-to-talk", detail: "Gevoelens van het wachtende kind erkennen in plaats van wegmanagen; kinderen mee laten denken over oplossingen." }
     ],

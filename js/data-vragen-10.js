@@ -9,7 +9,7 @@ const VRAGEN_10 = [
     "zelfvertrouwen",
     ["peuter", "kind", "tiener"],
     ["nieuw", "durven", "angst", "proberen", "zelfvertrouwen"],
-    "Maak de stap kleiner en laat je kind eigenaarschap houden. Moed groeit niet door duwen, maar door veilige herhaalde ervaringen van: ik kan iets spannends aan.",
+    "Maak de stap kleiner en laat je kind het zelf in handen houden. Moed groeit niet door duwen, maar door veilige herhaalde ervaringen van: ik kan iets spannends aan.",
     "Nieuwe dingen raken aan controleverlies. Voor sommige kinderen voelt onbekend onmiddellijk als gevaar. Als jij dan pusht, wordt het bewijs: dit is te groot. Als jij alles vermijdt, blijft de wereld klein.",
     "Klein genoeg om echt te proberen",
     "Zoek de net-haarbare stap: kijken zonder meedoen, vijf minuten proberen, samen starten, één vraag stellen. Moed is niet geen angst voelen, maar bewegen met steun.",
@@ -25,7 +25,7 @@ const VRAGEN_10 = [
     ],
     ["“We zoeken een stap die spannend is, maar niet te groot.”"],
     [
-      ["self-driven-child", "Autonomie en controle verlagen stress en vergroten bereidheid om te proberen."],
+      ["self-driven-child", "Zelfstandigheid en controle verlagen stress en vergroten bereidheid om te proberen."],
       ["nurtureshock", "Procesgerichte feedback ondersteunt risico nemen en doorzetten."]
     ],
     ["faalangst-toets", "perfectionisme-boos-fout"]
@@ -53,7 +53,7 @@ const VRAGEN_10 = [
     ["“Je brein is bij een moeilijk stuk. Wat is de kleinste volgende stap?”"],
     [
       ["nurtureshock", "Proceslof en groeitaal vergroten volharding bij uitdaging."],
-      ["self-driven-child", "Competentie groeit door passende steun zonder eigenaarschap af te nemen."]
+      ["self-driven-child", "Het gevoel iets te kunnen groeit door passende steun zonder het uit handen te nemen."]
     ],
     ["kind-snel-gefrustreerd", "slechte-schoolresultaten"]
   ),
@@ -160,7 +160,7 @@ const VRAGEN_10 = [
     ],
     ["“We hoeven angst niet weg te maken. We maken de stap kleiner.”"],
     [
-      ["self-driven-child", "Autonomie en controle helpen kinderen stressvolle prestaties aangaan."],
+      ["self-driven-child", "Zelfstandigheid en controle helpen kinderen stressvolle prestaties aangaan."],
       ["gottman-eq", "Angst erkennen opent de weg naar probleemoplossing."]
     ],
     ["durft-niet-nieuw", "faalangst-toets"]
@@ -187,7 +187,7 @@ const VRAGEN_10 = [
     ],
     ["“Je hoeft nog geen passie te hebben. We mogen gewoon proeven.”"],
     [
-      ["self-driven-child", "Duurzame motivatie groeit uit autonomie, competentie en eigen keuze."],
+      ["self-driven-child", "Blijvende motivatie groeit uit zelfstandigheid, het gevoel iets te kunnen, en eigen keuze."],
       ["conscious-parent", "Ouders mogen onderzoeken of hun druk uit eigen verwachtingen komt."]
     ],
     ["sport-hobby-stoppen", "motivatie-zakt-school"]
@@ -252,7 +252,7 @@ const VRAGEN_10 = [
     "zelfvertrouwen",
     ["kind", "tiener"],
     ["motivatie", "school", "huiswerk", "leren", "autonomie"],
-    "Motivatie groeit zelden door meer controle. Onderzoek slaap, stress, niveau, relatie met leerkracht en eigenaarschap. Maak één kleine werkbare afspraak.",
+    "Motivatie groeit zelden door meer controle. Onderzoek slaap, stress, niveau, relatie met leerkracht en eigen verantwoordelijkheid. Maak één kleine werkbare afspraak.",
     "Geen motivatie kan veel betekenen: te moeilijk, te makkelijk, schaamte, geen overzicht, sociale zorgen of simpelweg geen gevoel van controle. Druk bovenop druk maakt school nog minder van het kind zelf.",
     "Van strijd naar consult",
     "Ga naast je kind staan: wat kost energie, wat lukt nog, wat is één experiment voor deze week? Jij bewaakt randvoorwaarden, maar je kind moet eigenaar kunnen blijven.",
@@ -268,7 +268,7 @@ const VRAGEN_10 = [
     ],
     ["“Ik ga school niet van jou overnemen. Ik wil wel meezoeken wat helpt.”"],
     [
-      ["self-driven-child", "Motivatie hangt sterk samen met autonomie en gevoel van controle."],
+      ["self-driven-child", "Motivatie hangt sterk samen met zelfstandigheid en gevoel van controle."],
       ["nurtureshock", "Slaap en druk beïnvloeden leren en inzet vaak meer dan ouders denken."]
     ],
     ["huiswerk-politie", "slechte-schoolresultaten"]
@@ -295,8 +295,8 @@ const VRAGEN_10 = [
     ],
     ["“Er is geen perfecte keuze. Welke is goed genoeg voor nu?”"],
     [
-      ["self-driven-child", "Kinderen bouwen controle en competentie door echte, passende keuzes te oefenen."],
-      ["good-inside", "Ouders kunnen stevig begeleiden zonder eigenaarschap weg te nemen."]
+      ["self-driven-child", "Kinderen bouwen controle en het gevoel iets te kunnen door echte, passende keuzes te oefenen."],
+      ["good-inside", "Ouders kunnen stevig begeleiden zonder het uit handen te nemen."]
     ],
     ["durft-niet-nieuw", "te-veel-helpen"]
   ),
@@ -322,7 +322,7 @@ const VRAGEN_10 = [
     ],
     ["“Ik vertrouw jou met dit stuk. Ik check om zes uur even mee.”"],
     [
-      ["self-driven-child", "Ouders functioneren best als consultant: steun geven zonder manager te worden."],
+      ["self-driven-child", "Ouders werken het best als adviseur: steun geven zonder manager te worden."],
       ["nurtureshock", "Kinderen leren door uitdaging met feedback op proces en strategie."]
     ],
     ["kind-kan-niet-kiezen", "huiswerk-politie"]
@@ -349,7 +349,7 @@ const VRAGEN_10 = [
     ],
     ["“Dit is jouw oefengeld. Ik denk mee, maar jij kiest.”"],
     [
-      ["self-driven-child", "Eigenaarschap groeit door echte keuzes met draaglijke gevolgen."],
+      ["self-driven-child", "Eigen verantwoordelijkheid groeit door echte keuzes met draaglijke gevolgen."],
       ["unconditional-parenting", "Belonen en intrekken als controle kan motivatie en relatie belasten."]
     ],
     ["verantwoordelijkheid-geven", "klusjes-in-gezin"]
@@ -376,7 +376,7 @@ const VRAGEN_10 = [
     ],
     ["“Ik geef een hint, en dan probeer jij het volgende stukje.”"],
     [
-      ["self-driven-child", "Competentie en controle groeien wanneer ouders niet alles managen."],
+      ["self-driven-child", "Het gevoel iets te kunnen en controle groeien wanneer ouders niet alles managen."],
       ["conscious-parent", "Ouders onderzoeken of hulp uit het echte kind of uit eigen angst komt."]
     ],
     ["kind-snel-gefrustreerd", "verantwoordelijkheid-geven"]
@@ -404,7 +404,7 @@ const VRAGEN_10 = [
     ["“Nee, ik wil dat niet. Je mag boos zijn, maar mijn antwoord blijft nee.”"],
     [
       ["good-inside", "Kinderen leren grenzen houden door thuis te ervaren dat gevoelens en grenzen samen mogen bestaan."],
-      ["self-driven-child", "Autonomie en eigen stem zijn beschermende factoren tegen stress en druk."]
+      ["self-driven-child", "Zelfstandigheid en een eigen stem beschermen tegen stress en druk."]
     ],
     ["kind-kan-niet-kiezen", "regels-bij-speelafspraak"]
   ),
@@ -431,7 +431,7 @@ const VRAGEN_10 = [
     ["“Na deze aflevering gaat hij uit. Daarna gaan we naar buiten.”"],
     [
       ["anxious-generation", "Digitale producten zijn ontworpen om aandacht vast te houden; kinderen hebben collectieve grenzen nodig."],
-      ["whole-brain-child", "Overgangen vragen regulatie; bij overspoeling werkt redeneren minder."]
+      ["whole-brain-child", "Overgangen vragen rust; bij overspoeling werkt redeneren minder."]
     ],
     ["telefoon-afpakken-ruzie", "schermtijd-timer"]
   ),
@@ -458,7 +458,7 @@ const VRAGEN_10 = [
     ["“Dat beeld zit nog in je hoofd. We helpen je brein herinneren dat je hier veilig bent.”"],
     [
       ["anxious-generation", "Online omgevingen stellen kinderen bloot aan prikkels waarvoor hun brein nog bescherming nodig heeft."],
-      ["gottman-eq", "Angst valideren maakt geruststelling en probleemoplossing mogelijk."]
+      ["gottman-eq", "Angst erkennen maakt geruststelling en probleemoplossing mogelijk."]
     ],
     ["bang-donkere-kamer", "online-pesten"]
   ),
@@ -498,7 +498,7 @@ const VRAGEN_10 = [
     "Niet automatisch, maar gamen heeft duidelijke kaders nodig. Kijk naar slaap, duur, type game, online druk en herstel na verlies.",
     "Games combineren competitie, beloning, frustratie en sociale druk. Voor sommige kinderen is dat precies te veel. De woede na gamen is informatie over grens, niet alleen over karakter.",
     "Maak herstel een voorwaarde",
-    "Als je kind na gamen niet meer terug kan naar het gezin, moet het plan anders: korter, vroeger, offline, andere game of pauzes. Vrijheid groeit met regulatie.",
+    "Als je kind na gamen niet meer terug kan naar het gezin, moet het plan anders: korter, vroeger, offline, andere game of pauzes. Vrijheid groeit mee met zelfbeheersing.",
     [
       "Spreek speeltijd en stopmoment vooraf af.",
       "Observeer hoe je kind na gamen terugkeert.",
@@ -512,7 +512,7 @@ const VRAGEN_10 = [
     ["“Als gamen je zo lang uit jezelf haalt, moeten we het plan aanpassen.”"],
     [
       ["anxious-generation", "Digitale omgevingen kunnen spel, beloning en sociale druk intensiveren."],
-      ["self-driven-child", "Vrijheid werkt beter wanneer kinderen ook verantwoordelijkheid en zelfregulatie oefenen."]
+      ["self-driven-child", "Vrijheid werkt beter wanneer kinderen ook verantwoordelijkheid en zichzelf kalmeren oefenen."]
     ],
     ["tablet-afpakken-meltdown", "woede-bij-verliezen"]
   ),

@@ -12,9 +12,9 @@ const VRAGEN_4 = [
     tags: ["wakker", "nacht", "doorslapen", "voeden", "slaapregressie", "huilen", "oververmoeid"],
     kort: "Waarschijnlijk niet. Baby's slapen licht, zoeken nabijheid en hebben nog geen volwassen ritme. Help met voorspelbaarheid en troost, maar maak van doorslapen geen examen dat je moet winnen.",
     blokken: [
-      { tekst: "Doorslapen wordt vaak verkocht alsof het een opvoedprestatie is. De boeken zetten dat recht: een babybrein is nog volop in aanbouw en heeft co-regulatie nodig. Wakker worden is bij baby's normaal; <strong>jouw reactie bouwt veiligheid, geen slechte gewoonte</strong>." },
+      { tekst: "Doorslapen wordt vaak verkocht alsof het een opvoedprestatie is. De boeken zetten dat recht: een babybrein is nog volop in aanbouw en heeft samen kalmeren (co-regulatie) nodig. Wakker worden is bij baby's normaal; <strong>jouw reactie bouwt veiligheid, geen slechte gewoonte</strong>." },
       { kop: "Nachtwaken is communicatie", tekst: "Sunderland beschrijft hoe jonge baby's stress nog niet zelfstandig kunnen dempen. Wakker worden kan honger, ongemak, nabijheidsbehoefte, overprikkeling of een ontwikkelingssprong zijn. Dat betekent niet dat jij elk geluid met paniek moet beantwoorden, wel dat langdurig alleen worstelen geen training is." },
-      { kop: "Ritme helpt, druk niet", tekst: "NurtureShock laat zien hoe krachtig slaap is voor leren en emotieregulatie. Werk dus aan de randvoorwaarden: daglicht overdag, rustige avond, vaste volgorde, weinig prikkels. Maar meet succes niet aan één perfecte nacht. Baby's leren slaap via duizenden herhalingen, niet via één harde methode." }
+      { kop: "Ritme helpt, druk niet", tekst: "NurtureShock laat zien hoe krachtig slaap is voor leren en voor het kalmeren van emoties. Werk dus aan de basisvoorwaarden: daglicht overdag, rustige avond, vaste volgorde, weinig prikkels. Maar meet succes niet aan één perfecte nacht. Baby's leren slaap via duizenden herhalingen, niet via één harde methode." }
     ],
     doeDit: [
       "Maak de nacht saai: weinig licht, weinig woorden, zachte herhaling.",
@@ -30,7 +30,7 @@ const VRAGEN_4 = [
     ],
     zegDit: null,
     bronnen: [
-      { boek: "science-of-parenting", detail: "Jonge baby's hebben co-regulatie nodig; troost helpt het stresssysteem rijpen in plaats van afhankelijkheid te kweken." },
+      { boek: "science-of-parenting", detail: "Jonge baby's hebben samen kalmeren (co-regulatie) nodig; troost helpt het stresssysteem rijpen in plaats van afhankelijkheid te kweken." },
       { boek: "power-of-showing-up", detail: "De S van soothed: herhaalde troostervaringen bouwen de interne kalmeringscircuits van later." },
       { boek: "nurtureshock", detail: "Slaap is een kernvoorwaarde voor leren, stemming en zelfbeheersing; ritme is geen luxe maar breinonderhoud." }
     ],
@@ -121,7 +121,7 @@ const VRAGEN_4 = [
     blokken: [
       { tekst: "Slaan is geen bewijs dat je kind slecht is. Het is meestal een lijf dat sneller is dan de bovenverdieping van het brein. Dat betekent niet dat je het laat gebeuren. <strong>De grens is stevig; de interpretatie blijft gul.</strong>" },
       { kop: "Eerst veiligheid", tekst: "Becky Kennedy's sturdy leadership is hier precies voor bedoeld: warm én onverzettelijk. Je houdt de arm tegen, zet je lichaam ertussen of haalt je kind weg. Kort: “ik laat je niet slaan.” Geen preek, geen vernedering. Het brein dat net sloeg kan de les nog niet opnemen." },
-      { kop: "Daarna de vaardigheid", tekst: "Gottman en Siegel & Bryson zouden na de storm teruggaan naar emotiecoaching: wat gebeurde er in je lijf, welke woorden ontbraken, wat kan je hand de volgende keer doen? Stampen, hulp roepen, in een kussen slaan, afstand nemen. Een kind leert alternatief gedrag door het te oefenen, niet door zich slecht te voelen." }
+      { kop: "Daarna de vaardigheid", tekst: "Gottman en Siegel & Bryson zouden na de storm teruggaan naar het begeleiden van emoties: wat gebeurde er in je lijf, welke woorden ontbraken, wat kan je hand de volgende keer doen? Stampen, hulp roepen, in een kussen slaan, afstand nemen. Een kind leert alternatief gedrag door het te oefenen, niet door zich slecht te voelen." }
     ],
     doeDit: [
       "Stop fysiek rustig en onmiddellijk: arm tegenhouden, afstand maken.",
@@ -142,8 +142,8 @@ const VRAGEN_4 = [
     ],
     bronnen: [
       { boek: "good-inside", detail: "Gedrag is een signaal van ontbrekende vaardigheid; sturdy leadership houdt grens en verbinding samen." },
-      { boek: "whole-brain-child", detail: "Bij overname door het benedenbrein werkt eerst co-regulatie; oefenen komt als de bovenverdieping terug online is." },
-      { boek: "gottman-eq", detail: "Alle gevoelens zijn oké, niet alle gedrag; emotiecoaching koppelt grens aan woorden en probleemoplossing." }
+      { boek: "whole-brain-child", detail: "Bij overname door het benedenbrein werkt eerst samen kalmeren; oefenen komt als de bovenverdieping terug online is." },
+      { boek: "gottman-eq", detail: "Alle gevoelens zijn oké, niet alle gedrag; emoties begeleiden koppelt de grens aan woorden en samen een oplossing zoeken." }
     ],
     gerelateerd: ["driftbui-reageren", "straffen-werkt", "ik-haat-je"]
   },
@@ -157,7 +157,7 @@ const VRAGEN_4 = [
     kort: "Verliezen is oefenmateriaal voor frustratie, schaamte en herstel. Maak het gevoel veilig, houd het spel eerlijk en oefen achteraf sportief gedrag in kleine stukjes.",
     blokken: [
       { tekst: "Een kind dat door het lint gaat na verlies, is niet ‘onsportief’ als karakterdiagnose. Het oefent met een pijnlijk mengsel van teleurstelling, schaamte en controleverlies. <strong>Het doel is niet dat verliezen leuk wordt, maar dat het draaglijk wordt.</strong>" },
-      { kop: "Gevoel erkennen zonder het spel te vervalsen", tekst: "Gottman zou starten bij valideren: “verliezen voelt rot.” Maar de grens blijft: niet gooien, niet schelden, niet de regels herschrijven. Als je het kind laat winnen om de storm te vermijden, leert het brein dat het verlies inderdaad ondraaglijk was." },
+      { kop: "Gevoel erkennen zonder het spel te vervalsen", tekst: "Gottman zou starten bij erkennen: “verliezen voelt rot.” Maar de grens blijft: niet gooien, niet schelden, niet de regels herschrijven. Als je het kind laat winnen om de storm te vermijden, leert het brein dat het verlies inderdaad ondraaglijk was." },
       { kop: "Prijs herstel, niet winnen", tekst: "NurtureShock waarschuwt voor prestatie-identiteit: kinderen die vooral slim, goed of winnaar moeten zijn, vermijden risico. Beschrijf dus herstelgedrag: opnieuw proberen, de winnaar feliciteren, pauze nemen en terugkomen. Daar groeit echte veerkracht." }
     ],
     doeDit: [
@@ -194,7 +194,7 @@ const VRAGEN_4 = [
     kort: "Gevoeligheid is geen fout die eruit moet. Een kind wordt weerbaarder door gevoelens te leren dragen, niet door te horen dat ze overdreven zijn.",
     blokken: [
       { tekst: "Veel huilen triggert bij ouders de angst: maak ik mijn kind zwak als ik troost? De boeken draaien het om. Een kind dat mag voelen, leert zijn binnenwereld kennen. Een kind dat steeds hoort “niet zo gevoelig” leert vooral zichzelf wantrouwen." },
-      { kop: "Troost is geen versterker van tranen", tekst: "Siegel & Bryson en Sunderland beschrijven co-regulatie als training van het stresssysteem. Je neemt het gevoel niet over en je lost niet alles op; je blijft dichtbij terwijl het gevoel beweegt. Dat is precies hoe een kind later leert: dit gaat voorbij." },
+      { kop: "Troost is geen versterker van tranen", tekst: "Siegel & Bryson en Sunderland beschrijven samen kalmeren (co-regulatie) als training van het stresssysteem. Je neemt het gevoel niet over en je lost niet alles op; je blijft dichtbij terwijl het gevoel beweegt. Dat is precies hoe een kind later leert: dit gaat voorbij." },
       { kop: "Maak ruimte én bouw draagkracht", tekst: "Gottman maakt het onderscheid: alle gevoelens mogen, niet alle gedrag. Je kunt dus warm zijn voor tranen en tegelijk oefenen met woorden, pauzes, ademhaling, hulp vragen of opnieuw proberen. Weerbaarheid groeit niet uit hardheid, maar uit herhaald veilig herstellen." }
     ],
     doeDit: [
@@ -216,7 +216,7 @@ const VRAGEN_4 = [
     ],
     bronnen: [
       { boek: "power-of-showing-up", detail: "Gezien en getroost worden helpt kinderen een veilig intern model opbouwen voor grote gevoelens." },
-      { boek: "gottman-eq", detail: "Emotiecoaching behandelt emoties als kans tot verbinding en vaardigheid, niet als probleem dat weg moet." },
+      { boek: "gottman-eq", detail: "Emoties begeleiden behandelt gevoelens als kans tot verbinding en als iets om te leren, niet als probleem dat weg moet." },
       { boek: "philippa-perry", detail: "Gevoelens serieus nemen voorkomt dat kinderen zichzelf afleren te vertrouwen." }
     ],
     gerelateerd: ["kind-angstig", "driftbui-reageren", "baby-verwennen"]
@@ -269,7 +269,7 @@ const VRAGEN_4 = [
     blokken: [
       { tekst: "‘Altijd consequent zijn’ klinkt stevig, maar kan hard en onnadenkend worden. De boeken mikken niet op mechanische ouders. Ze mikken op veilige ouders: <strong>duidelijk genoeg om op te leunen, menselijk genoeg om af te stemmen</strong>." },
       { kop: "Betrouwbaarheid is de kern", tekst: "Kennedy's sturdy leadership betekent dat je kind voelt: mijn ouder beslist niet vanuit paniek of willekeur. Een nee blijft meestal nee, zeker bij veiligheid en waarden. Maar een betrouwbare ouder kan ook uitleggen waarom vandaag anders is, zonder schaamte of lange verdediging." },
-      { kop: "Regels zijn middelen, geen afgoden", tekst: "Kohn stelt de ongemakkelijke vraag: dient deze regel mijn kind, of vooral mijn gemak? Markham zou daar zelfregulatie aan toevoegen: als je ‘consequent’ bent omdat je te boos bent om te herzien, is dat geen stevigheid. Herstellen of bijstellen mag; het modelleert denken." }
+      { kop: "Regels zijn middelen, geen afgoden", tekst: "Kohn stelt de ongemakkelijke vraag: dient deze regel mijn kind, of vooral mijn gemak? Markham zou daar ‘eerst zelf kalm blijven’ aan toevoegen: als je ‘consequent’ bent omdat je te boos bent om je te bedenken, is dat geen stevigheid. Herstellen of bijstellen mag; je laat dan zien hoe je nadenkt." }
     ],
     doeDit: [
       "Maak onderscheid tussen harde grenzen (veiligheid, respect) en flexibele voorkeuren.",
@@ -291,7 +291,7 @@ const VRAGEN_4 = [
     bronnen: [
       { boek: "good-inside", detail: "Sturdy leadership vraagt warmte en stevigheid, niet starheid; ouders mogen betrouwbaar en menselijk tegelijk zijn." },
       { boek: "unconditional-parenting", detail: "Regels moeten vertrekken vanuit behoeften en waarden, niet vanuit automatische controle." },
-      { boek: "peaceful-parent", detail: "Zelfregulatie van de ouder voorkomt dat ‘consequent zijn’ een dekmantel wordt voor reactiviteit." }
+      { boek: "peaceful-parent", detail: "Een ouder die zelf kalm blijft, voorkomt dat ‘consequent zijn’ een excuus wordt voor impulsief reageren." }
     ],
     gerelateerd: ["nee-zeggen-zonder-drama", "goede-consequentie", "zelf-ontploft"]
   },
@@ -417,7 +417,7 @@ const VRAGEN_4 = [
     blokken: [
       { tekst: "Perfectionisme lijkt soms op ambitie, maar voelt vanbinnen als gevaar: als ik faal, bén ik fout. NurtureShock laat zien hoe snel kinderen uitdagingen mijden als hun waarde gekoppeld wordt aan slim zijn. <strong>Een kind dat fouten durft maken, heeft veiliger zelfvertrouwen dan een kind dat altijd goed moet zijn.</strong>" },
       { kop: "Verander de taal rond fouten", tekst: "Faber & Mazlish adviseren beschrijvende feedback. Niet “jij bent zo slim”, maar “je probeerde drie manieren en koos toen hulp”. Daarmee wordt succes een aanpak, geen eigenschap. Kohn zou opletten dat lof geen nieuwe meetlat wordt; blijf nieuwsgierig naar leren, niet naar scoren." },
-      { kop: "Jij modelleert de foutcultuur", tekst: "Als jij je eigen fouten dramatisch maakt of verbergt, leert je kind dat fouten gevaarlijk zijn. Zeg hardop: “ik deed dat onhandig, ik herstel het.” Stixrud & Johnson vullen aan: een kind met meer gevoel van controle kan stress beter dragen. Geef dus keuze in hoe het oefent." }
+      { kop: "Jij geeft het voorbeeld bij fouten", tekst: "Als jij je eigen fouten dramatisch maakt of verbergt, leert je kind dat fouten gevaarlijk zijn. Zeg hardop: “ik deed dat onhandig, ik herstel het.” Stixrud & Johnson vullen aan: een kind met meer gevoel van controle kan stress beter dragen. Geef dus keuze in hoe het oefent." }
     ],
     doeDit: [
       "Vertel regelmatig over een eigen fout en je herstel.",
@@ -474,7 +474,7 @@ const VRAGEN_4 = [
       "“Je wilde stoppen en je deed nog één stap. Dat is oefenen.”"
     ],
     bronnen: [
-      { boek: "self-driven-child", detail: "Autonomie en competentie zijn de motoren van motivatie; de ouder is consultant, geen manager." },
+      { boek: "self-driven-child", detail: "Zelfstandigheid en het gevoel iets te kunnen zijn de motoren van motivatie; de ouder is adviseur, geen manager." },
       { boek: "whole-brain-child", detail: "Zelfbeheersing en doorzetten zijn bovenbreinvaardigheden die in kleine, haalbare stappen geoefend worden." },
       { boek: "nurtureshock", detail: "Procesfeedback op inspanning en strategie bouwt meer doorzettingsvermogen dan talenttaal." }
     ],
@@ -491,7 +491,7 @@ const VRAGEN_4 = [
     blokken: [
       { tekst: "Een verlegen kind krijgt snel het gevoel dat het fout is omdat het niet meteen zwaait, praat of optreedt. Philippa Perry zou vragen: kunnen we het kind zien zoals het is, in plaats van het kind dat wij hoopten te hebben? <strong>Rustig opwarmen is geen mislukte sociaalheid.</strong>" },
       { kop: "Labels plakken vast", tekst: "Faber & Mazlish waarschuwen tegen rollen: ‘de verlegene’, ‘de stille’, ‘de bange’. Zelfs goedbedoeld (“hij is nu eenmaal verlegen”) kan een kind opsluiten. Beschrijf liever de situatie: “je hebt even tijd nodig om te wennen.” Dat laat beweging toe." },
-      { kop: "Voorbereiden en doseren", tekst: "Stixrud & Johnson zouden autonomie geven: wil je zwaaien, hallo zeggen of eerst naast mij staan? Kleine keuzes maken sociale spanning draaglijk. Haidt herinnert eraan dat echte wereld-oefening belangrijk is: niet vermijden, maar stap voor stap deelnemen." }
+      { kop: "Voorbereiden en doseren", tekst: "Stixrud & Johnson zouden ruimte voor eigen keuzes geven: wil je zwaaien, hallo zeggen of eerst naast mij staan? Kleine keuzes maken sociale spanning draaglijk. Haidt herinnert eraan dat oefenen in de echte wereld belangrijk is: niet vermijden, maar stap voor stap deelnemen." }
     ],
     doeDit: [
       "Geef vooraf informatie: wie is er, wat gebeurt er, hoe lang blijven we.",
@@ -549,7 +549,7 @@ const VRAGEN_4 = [
     ],
     bronnen: [
       { boek: "anxious-generation", detail: "Schermen zijn vooral schadelijk door wat ze verdringen; eindeloze digitale prikkels vragen collectieve en huiselijke grenzen." },
-      { boek: "science-of-parenting", detail: "Zelfregulatie is bij kinderen nog in ontwikkeling; externe structuur helpt waar interne remmen ontbreken." },
+      { boek: "science-of-parenting", detail: "Zichzelf kalmeren is bij kinderen nog in ontwikkeling; houvast van buitenaf helpt waar een eigen rem nog ontbreekt." },
       { boek: "how-to-talk", detail: "Erken verlangen, geef informatie en keuzes binnen de grens in plaats van te dreigen of preken." }
     ],
     gerelateerd: ["schermtijd-hoeveel", "smartphone-wanneer", "zeuren-onderhandelen"]
@@ -587,7 +587,7 @@ const VRAGEN_4 = [
     bronnen: [
       { boek: "anxious-generation", detail: "Sociale media versterken sociale vergelijking, permanente peer-beoordeling en mentale gezondheidsrisico's bij tieners." },
       { boek: "hold-on-to-your-kids", detail: "Peer-oriëntatie maakt kinderen afhankelijker van leeftijdsgenoten; ouders moeten hechtingsankers actief beschermen." },
-      { boek: "self-driven-child", detail: "Slaap, autonomie en een niet-angstige ouder beschermen het stresssysteem van tieners." }
+      { boek: "self-driven-child", detail: "Slaap, zelfstandigheid en een niet-angstige ouder beschermen het stresssysteem van tieners." }
     ],
     gerelateerd: ["smartphone-wanneer", "tiener-trekt-terug", "slaap-hoe-belangrijk"]
   },

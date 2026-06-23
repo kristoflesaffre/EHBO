@@ -10,10 +10,10 @@ const VRAGEN_6 = [
     leeftijd: ["kind", "tiener"],
     uitgelicht: false,
     tags: ["punten", "cijfers", "rapport", "school", "falen", "leren", "toets"],
-    kort: "Reageer op cijfers als informatie, niet als identiteit. Eerst kalmte en nieuwsgierigheid, dan samen kijken naar slaap, aanpak, hulp en eigenaarschap.",
+    kort: "Reageer op cijfers als informatie, niet als identiteit. Eerst kalmte en nieuwsgierigheid, dan samen kijken naar slaap, aanpak, hulp en eigen verantwoordelijkheid.",
     blokken: [
       { tekst: "Een slecht cijfer voelt voor ouders vaak als alarm: toekomst, motivatie, discipline. Voor het kind voelt het vaak als schaamte. Als jij daar paniek bovenop legt, wordt leren gevaarlijk. <strong>Een cijfer vertelt iets over aanpak en omstandigheden, niet over waarde.</strong>" },
-      { kop: "Consultant, geen crisismanager", tekst: "Stixrud & Johnson adviseren de ouder als consultant: beschikbaar, niet eigenaar. NurtureShock wijst op slaap en procesfeedback. Vraag dus wat je kind denkt dat er gebeurde, wat het nodig heeft en welke kleine aanpassing het wil proberen." }
+      { kop: "Adviseur, geen crisismanager", tekst: "Stixrud & Johnson adviseren de ouder als adviseur: beschikbaar, maar niet de baas over het huiswerk. NurtureShock wijst op slaap en complimenten over de inzet. Vraag dus wat je kind denkt dat er gebeurde, wat het nodig heeft en welke kleine aanpassing het wil proberen." }
     ],
     doeDit: [
       "Begin met: “wat denk jij dat er gebeurde?”",
@@ -30,7 +30,7 @@ const VRAGEN_6 = [
       "“Wil je hulp bij plannen, begrijpen of oefenen?”"
     ],
     bronnen: [
-      { boek: "self-driven-child", detail: "School hoort bij het eigenaarschap van het kind; ouders helpen als consultant in plaats van manager." },
+      { boek: "self-driven-child", detail: "School hoort bij de eigen verantwoordelijkheid van het kind; ouders helpen als adviseur in plaats van manager." },
       { boek: "nurtureshock", detail: "Slaap, procesfeedback en leren wegen zwaarder dan druk op prestatie-identiteit." },
       { boek: "unconditional-parenting", detail: "Cijfers belonen of bestraffen maakt leren afhankelijk van externe goedkeuring." }
     ],
@@ -46,7 +46,7 @@ const VRAGEN_6 = [
     kort: "Niet automatisch pushen en niet automatisch laten vallen. Onderzoek waarom: past het niet, is het moeilijk, sociaal onveilig of gewoon een dip? Maak afspraken over afronden en kiezen.",
     blokken: [
       { tekst: "Stoppen kan vermijden zijn, maar ook gezonde zelfkennis. De kunst is het verschil onderzoeken zonder strijd. <strong>Doorzetten is waardevol; vastzitten in iets dat niet klopt is dat niet.</strong>" },
-      { kop: "Eigenaarschap en afspraak", tekst: "Stixrud & Johnson leggen motivatie bij autonomie en competentie. Je kunt zeggen: dit seizoen maken we af omdat teamafspraken tellen, en daarna kiezen we opnieuw. NurtureShock helpt om inzet en strategie te bespreken in plaats van talent of falen." }
+      { kop: "Eigen verantwoordelijkheid en afspraak", tekst: "Stixrud & Johnson leggen motivatie bij zelfstandigheid en het gevoel iets te kunnen. Je kunt zeggen: dit seizoen maken we af omdat teamafspraken tellen, en daarna kiezen we opnieuw. NurtureShock helpt om inzet en strategie te bespreken in plaats van talent of falen." }
     ],
     doeDit: [
       "Vraag: “wil je stoppen omdat het niet past of omdat het moeilijk wordt?”",
@@ -63,7 +63,7 @@ const VRAGEN_6 = [
       "“We maken deze afspraak netjes af en beslissen daarna opnieuw.”"
     ],
     bronnen: [
-      { boek: "self-driven-child", detail: "Autonomie en competentie bepalen duurzame motivatie; ouders adviseren zonder eigenaar te worden." },
+      { boek: "self-driven-child", detail: "Zelfstandigheid en het gevoel iets te kunnen bepalen blijvende motivatie; ouders adviseren zonder het over te nemen." },
       { boek: "conscious-parent", detail: "Ouders onderzoeken of ze reageren vanuit het echte kind of vanuit eigen verwachtingen." },
       { boek: "nurtureshock", detail: "Proces en inspanning bespreken houdt leren los van vaste talentlabels." }
     ],
@@ -109,10 +109,10 @@ const VRAGEN_6 = [
     leeftijd: ["peuter", "kind"],
     uitgelicht: false,
     tags: ["zelfstandig", "durven", "proberen", "helpen", "angst", "zelfvertrouwen"],
-    kort: "Geef niet meteen hulp, maar ook geen koude sprong. Bied een steiger: eerst samen, dan jij dichtbij, dan jij kijkt. Zelfvertrouwen groeit uit ervaren competentie.",
+    kort: "Geef niet meteen hulp, maar ook geen koude sprong. Bied een steiger: eerst samen, dan jij dichtbij, dan jij kijkt. Zelfvertrouwen groeit uit het gevoel dat je iets echt kunt.",
     blokken: [
       { tekst: "“Ik kan het niet” betekent vaak: ik weet niet of ik de frustratie aankan. Te snel helpen bevestigt dat. Te snel loslaten overspoelt. <strong>De beste hulp verdwijnt langzaam.</strong>" },
-      { kop: "Steiger bouwen", tekst: "Stixrud & Johnson schrijven over competentie en controle. Siegel & Bryson zien proberen als bovenbrein-oefening. Zeg dus niet alleen “je kan het”, maar maak de eerste stap zichtbaar en laat je kind eigenaar blijven." }
+      { kop: "Steiger bouwen", tekst: "Stixrud & Johnson schrijven over het gevoel iets te kunnen, en over controle. Siegel & Bryson zien proberen als bovenbrein-oefening. Zeg dus niet alleen “je kan het”, maar maak de eerste stap zichtbaar en laat je kind zelf de baas blijven." }
     ],
     doeDit: [
       "Vraag: “welk stukje wil je zelf proberen?”",
@@ -129,7 +129,7 @@ const VRAGEN_6 = [
       "“Ik blijf hier. Jij probeert.”"
     ],
     bronnen: [
-      { boek: "self-driven-child", detail: "Competentie en autonomie groeien wanneer het kind echte controle ervaart." },
+      { boek: "self-driven-child", detail: "Het gevoel iets te kunnen en zelfstandigheid groeien wanneer het kind echte controle ervaart." },
       { boek: "whole-brain-child", detail: "Plannen, proberen en frustratie dragen zijn ontwikkelende bovenbreinvaardigheden." },
       { boek: "power-of-showing-up", detail: "Een veilige basis maakt verkennen en zelfstandigheid mogelijk." }
     ],
@@ -144,7 +144,7 @@ const VRAGEN_6 = [
     tags: ["keuzes", "autonomie", "zelfstandigheid", "controle", "verantwoordelijkheid", "opvoeden"],
     kort: "Geef zoveel mogelijk echte keuzes die je kind kan dragen. Jij bewaakt veiligheid en waarden; je kind oefent voorkeur, planning, fouten en herstel.",
     blokken: [
-      { tekst: "Autonomie is geen luxe voor later. Kinderen bouwen zelfsturing door echte beslissingen te nemen, inclusief kleine fouten. <strong>Elke passende keuze zegt: jij bent iemand die invloed heeft.</strong>" },
+      { tekst: "Zelfstandigheid is geen luxe voor later. Kinderen leren zichzelf sturen door echte beslissingen te nemen, inclusief kleine fouten. <strong>Elke passende keuze zegt: jij bent iemand die invloed heeft.</strong>" },
       { kop: "Jouw kader, hun keuze", tekst: "Stixrud & Johnson zijn hier het duidelijkst: gevoel van controle beschermt tegen stress. Voor peuters zijn dat twee opties binnen jouw grens; voor tieners steeds meer keuzes over huiswerkplanning, kleding, hobby's, geld en sociaal leven. Haidt voegt toe: echte wereld-verantwoordelijkheid is gezond." }
     ],
     doeDit: [
@@ -163,7 +163,7 @@ const VRAGEN_6 = [
     ],
     bronnen: [
       { boek: "self-driven-child", detail: "Gevoel van controle is een kernbuffer tegen stress en basis voor motivatie." },
-      { boek: "anxious-generation", detail: "Kinderen hebben meer echte wereld-autonomie en verantwoordelijkheid nodig om veerkracht te bouwen." },
+      { boek: "anxious-generation", detail: "Kinderen hebben in de echte wereld meer zelfstandigheid en verantwoordelijkheid nodig om veerkracht te bouwen." },
       { boek: "unconditional-parenting", detail: "Werk mét kinderen door hen waar mogelijk te betrekken bij beslissingen." }
     ],
     gerelateerd: ["huiswerk-oorlog", "zelfstandig-proberen", "nee-zeggen-zonder-drama"]
@@ -178,7 +178,7 @@ const VRAGEN_6 = [
     kort: "Af en toe is geen ramp. Maar als elk leeg moment een scherm krijgt, mist je kind oefening in wachten, vervelen en sociaal meedoen. Gebruik het bewust, niet automatisch.",
     blokken: [
       { tekst: "Iedere ouder gebruikt soms een scherm om een situatie haalbaar te houden. Dat is menselijk. De vraag is of het scherm noodgereedschap is of standaard-reflex. <strong>Verveling en wachten zijn geen defecten; het zijn vaardigheden in opleiding.</strong>" },
-      { kop: "Wat schermen verdringen", tekst: "Haidt noemt de opportuniteitskost: wat gebeurt er niet wanneer het scherm aan staat? Sunderland wijst op jonge zelfregulatie: kinderen hebben oefening nodig met kleine frustraties, maar wel op een haalbare schaal." }
+      { kop: "Wat schermen verdringen", tekst: "Haidt wijst op wat je misloopt: wat gebeurt er niet wanneer het scherm aan staat? Sunderland wijst erop dat jonge kinderen zichzelf nog moeten leren kalmeren: ze hebben oefening nodig met kleine frustraties, maar wel op een haalbare schaal." }
     ],
     doeDit: [
       "Neem eerst schermvrije wachtspullen mee: potlood, boekje, klein spel.",
@@ -196,8 +196,8 @@ const VRAGEN_6 = [
     ],
     bronnen: [
       { boek: "anxious-generation", detail: "Schermen verdringen verveling, vrij spel en echte interactie; dat effect telt meer dan minuten alleen." },
-      { boek: "science-of-parenting", detail: "Zelfregulatie ontwikkelt door begeleide oefening met frustratie en wachten." },
-      { boek: "whole-brain-child", detail: "Wachten en impulscontrole zijn vaardigheden die kinderen stap voor stap oefenen." }
+      { boek: "science-of-parenting", detail: "Zichzelf kalmeren ontwikkelt door begeleide oefening met frustratie en wachten." },
+      { boek: "whole-brain-child", detail: "Wachten en zichzelf inhouden zijn vaardigheden die kinderen stap voor stap oefenen." }
     ],
     gerelateerd: ["schermtijd-hoeveel", "kind-onderbreekt", "youtube-autoplay"]
   },
@@ -277,7 +277,7 @@ const VRAGEN_6 = [
     kort: "Eerst luisteren en veiligheid checken, niet meteen de telefoon afpakken. Online ruzie is echte sociale pijn. Help vertragen, screenshots bewaren bij grensoverschrijding en offline steun zoeken.",
     blokken: [
       { tekst: "Voor volwassenen lijkt groepschatdrama soms klein. Voor een kind kan het voelen alsof de hele klas in de kamer staat. Haidt beschrijft precies dat probleem: peer-oordeel wordt permanent en draagbaar. <strong>Doe dus niet alsof het virtueel is en daarom niet echt.</strong>" },
-      { kop: "Vertragen vóór reageren", tekst: "Gottman: eerst valideren. Stixrud & Johnson: wees de niet-angstige adviseur. Help je kind niet in paniek terugtypen. Lees samen, vraag wat het wil bereiken, maak eventueel screenshots en betrek school of ouders bij pesten, dreiging of uitsluiting." }
+      { kop: "Vertragen vóór reageren", tekst: "Gottman: eerst erkennen. Stixrud & Johnson: wees de niet-angstige adviseur. Help je kind niet in paniek terugtypen. Lees samen, vraag wat het wil bereiken, maak eventueel screenshots en betrek school of ouders bij pesten, dreiging of uitsluiting." }
     ],
     doeDit: [
       "Vraag: “wil je dat ik luister, meedenk of ingrijp?”",
@@ -474,7 +474,7 @@ const VRAGEN_6 = [
     tags: ["knuffel", "kus", "lichamelijke grenzen", "affectie", "afwijzing", "verbinding"],
     kort: "Nee. Lichamelijke grenzen respecteren bouwt juist veiligheid. Zoek andere vormen van verbinding en laat je kind merken dat liefde niet afhangt van fysieke affectie.",
     blokken: [
-      { tekst: "Een afgewezen knuffel kan pijnlijk voelen, maar het is ook een kans om lichaamsautonomie te leren. <strong>Een kind dat nee mag zeggen tegen veilige volwassenen, leert dat zijn lichaam van hem is.</strong>" },
+      { tekst: "Een afgewezen knuffel kan pijnlijk voelen, maar het is ook een kans om te leren: jouw lichaam is van jou. <strong>Een kind dat nee mag zeggen tegen veilige volwassenen, leert dat zijn lichaam van hem is.</strong>" },
       { kop: "Verbinding zonder claim", tekst: "Perry zou zeggen: leg je gekwetstheid niet bij je kind. Siegel & Bryson: safe betekent ook dat een kind niet bang hoeft te zijn voor jouw reactie op zijn grens. Zoek alternatieven: high five, naast elkaar zitten, grapje, briefje, samen iets doen." }
     ],
     doeDit: [
@@ -540,7 +540,7 @@ const VRAGEN_6 = [
     tags: ["maaltijd", "eten", "tafel", "groenten", "strijd", "gezin"],
     kort: "Maak de tafel weer veilig en voorspelbaar. Jij bepaalt aanbod en ritme; je kind bepaalt wat en hoeveel het eet. Verbinding aan tafel is belangrijker dan één extra hap.",
     blokken: [
-      { tekst: "Eten kan ongemerkt een dagelijks controlegevecht worden. Dan leert een kind niet ‘gezond eten’, maar: aan tafel staat mijn autonomie onder druk. <strong>Een rustige tafel is vaak de eerste voedingsinterventie.</strong>" },
+      { tekst: "Eten kan ongemerkt een dagelijks controlegevecht worden. Dan leert een kind niet ‘gezond eten’, maar: aan tafel staat mijn eigen wil onder druk. <strong>Een rustige tafel is vaak de eerste stap naar beter eten.</strong>" },
       { kop: "De relatie aan tafel", tekst: "Neufeld & Maté zien samen eten als hechtingsritueel. Kohn waarschuwt voor belonen en straffen. Bied goed eten aan, houd vaste tijden, laat het lichaam van je kind meebeslissen en praat ook over andere dingen dan happen." }
     ],
     doeDit: [
@@ -560,7 +560,7 @@ const VRAGEN_6 = [
     bronnen: [
       { boek: "hold-on-to-your-kids", detail: "Samen eten is een hechtingsritueel dat bescherming verdient." },
       { boek: "unconditional-parenting", detail: "Belonen en straffen rond eten maken gedrag extern gestuurd en beladen." },
-      { boek: "self-driven-child", detail: "Autonomie over lichaam en keuzes verlaagt machtsstrijd." }
+      { boek: "self-driven-child", detail: "Zelf beslissen over je lichaam en keuzes verlaagt machtsstrijd." }
     ],
     gerelateerd: ["eten-proeven-dwingen", "telefoon-aan-tafel", "ochtendstress"]
   },
@@ -574,7 +574,7 @@ const VRAGEN_6 = [
     kort: "Kinderen hebben geen identieke ouders nodig, wel veilige volwassenen. Bespreek verschillen buiten het heetste moment en herstel als je elkaar voor de kinderen onderuit haalde.",
     blokken: [
       { tekst: "Verschillende stijlen hoeven niet schadelijk te zijn. Wat wél zwaar is: kinderen die midden in volwassen strijd komen te staan of leren dat regels afhangen van wie wint. <strong>Een verenigd front betekent niet: altijd eens, maar: veilig omgaan met verschil.</strong>" },
-      { kop: "Herstel en overleg", tekst: "Perry benadrukt herstel na breuk; Markham begint bij zelfregulatie. Spreek af welke grenzen hard zijn en welke flexibel. Bespreek botsingen later, zonder publiek. Als je elkaar ondermijnde, herstel je dat zichtbaar: “wij waren het oneens en dat was niet jouw taak.”" }
+      { kop: "Herstel en overleg", tekst: "Perry benadrukt herstel na breuk; Markham begint bij zelf kalm blijven. Spreek af welke grenzen hard zijn en welke flexibel. Bespreek botsingen later, zonder publiek. Als je elkaar ondermijnde, herstel je dat zichtbaar: “wij waren het oneens en dat was niet jouw taak.”" }
     ],
     doeDit: [
       "Maak een korte lijst van gedeelde harde grenzen.",
@@ -592,7 +592,7 @@ const VRAGEN_6 = [
     ],
     bronnen: [
       { boek: "philippa-perry", detail: "Breuken herstellen en volwassen patronen herkennen beschermt het kind tegen schuld en spanning." },
-      { boek: "peaceful-parent", detail: "Zelfregulatie van ouders voorkomt escalatie en maakt constructieve grenzen mogelijk." },
+      { boek: "peaceful-parent", detail: "Een ouder die zelf kalm blijft voorkomt dat het uit de hand loopt en maakt goede grenzen mogelijk." },
       { boek: "good-inside", detail: "Sturdy leadership vraagt dat volwassenen de last van duidelijkheid dragen." }
     ],
     gerelateerd: ["zelf-ontploft", "co-ouderschap-overgangen", "altijd-consequent"]
@@ -640,7 +640,7 @@ const VRAGEN_6 = [
     kort: "Maak bijdragen normaal, concreet en passend bij leeftijd. Kinderen willen erbij horen; ze haken af bij vage opdrachten, kritiek of klusjes als straf.",
     blokken: [
       { tekst: "Klusjes zijn niet alleen praktisch; ze vertellen een kind: jij hoort erbij en jouw bijdrage doet ertoe. Maar als klusjes vooral straf, gezeur of kritiek zijn, worden ze precies het omgekeerde. <strong>Bijdragen groeit uit betekenis en routine.</strong>" },
-      { kop: "Concreet en echt", tekst: "Faber & Mazlish helpen met duidelijke taal: “de vorken op tafel” in plaats van “help eens wat meer”. Kohn waarschuwt om bijdragen niet altijd te kopen met beloningen. Stixrud & Johnson zien competentie groeien door echte verantwoordelijkheid." }
+      { kop: "Concreet en echt", tekst: "Faber & Mazlish helpen met duidelijke taal: “de vorken op tafel” in plaats van “help eens wat meer”. Kohn waarschuwt om bijdragen niet altijd te kopen met beloningen. Stixrud & Johnson zien het gevoel iets te kunnen groeien door echte verantwoordelijkheid." }
     ],
     doeDit: [
       "Geef vaste, zichtbare taken die echt nodig zijn.",
@@ -659,7 +659,7 @@ const VRAGEN_6 = [
     bronnen: [
       { boek: "how-to-talk", detail: "Concreet beschrijven en informatie geven lokt samenwerking uit zonder verwijt." },
       { boek: "unconditional-parenting", detail: "Bijdragen hoort niet afhankelijk te zijn van constante beloning of straf." },
-      { boek: "self-driven-child", detail: "Echte verantwoordelijkheid bouwt competentie en intern eigenaarschap." }
+      { boek: "self-driven-child", detail: "Echte verantwoordelijkheid bouwt het gevoel iets te kunnen en eigen verantwoordelijkheid voelen." }
     ],
     gerelateerd: ["zakgeld-klusjes", "opruimen-strijd", "eerlijk-verdelen"]
   }

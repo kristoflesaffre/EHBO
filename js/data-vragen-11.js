@@ -9,7 +9,7 @@ const VRAGEN_11 = [
     "schermen",
     ["tiener"],
     ["sociale media", "leeftijd", "smartphone", "instagram", "tiktok"],
-    "Later dan de meeste kinderen willen. Kijk niet alleen naar leeftijd, maar naar slaap, impulscontrole, weerbaarheid, privacy en of er collectieve ouderafspraken zijn.",
+    "Later dan de meeste kinderen willen. Kijk niet alleen naar leeftijd, maar naar slaap, zichzelf kunnen inhouden, weerbaarheid, privacy en of er gezamenlijke ouderafspraken zijn.",
     "Sociale media vragen volwassen vaardigheden: vergelijking verdragen, grenzen houden, privacy begrijpen, groepsdruk herkennen. Die vaardigheden zijn bij jonge tieners nog volop in aanbouw.",
     "Rijpheid vóór toegang",
     "Een eigen account is geen klein stapje. Begin met gezamenlijke regels, gesprek over algoritmes, geen telefoon in slaapkamer en duidelijke afspraken over melden van nare dingen.",
@@ -160,7 +160,7 @@ const VRAGEN_11 = [
     ],
     ["“Ik wil je privacy respecteren én je veiligheid beschermen. Daar maken we afspraken over.”"],
     [
-      ["self-driven-child", "Autonomie en verantwoordelijkheid moeten samen groeien."],
+      ["self-driven-child", "Zelfstandigheid en verantwoordelijkheid moeten samen groeien."],
       ["anxious-generation", "Online risico's vragen volwassen bescherming en collectieve normen."]
     ],
     ["sociale-media-leeftijd", "liegen-over-scherm"]
@@ -214,7 +214,7 @@ const VRAGEN_11 = [
     ],
     ["“We maken de omgeving makkelijker, niet jouw wilskracht groter.”"],
     [
-      ["self-driven-child", "Structuur helpt zonder eigenaarschap volledig over te nemen."],
+      ["self-driven-child", "Structuur helpt zonder het volledig uit handen te nemen."],
       ["anxious-generation", "Digitale afleiding verdringt diep werk, slaap en aandacht."]
     ],
     ["motivatie-zakt-school", "huiswerk-paniek"]
@@ -262,7 +262,7 @@ const VRAGEN_11 = [
       "Evalueer wekelijks kort in plaats van dagelijks te vechten."
     ],
     [
-      "Regels alleen maken na escalatie.",
+      "Regels alleen maken nadat het uit de hand is gelopen.",
       "Voor elk kind totaal andere basisregels zonder uitleg.",
       "Volwassen voorbeeldgedrag vergeten."
     ],
